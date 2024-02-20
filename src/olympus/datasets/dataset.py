@@ -141,7 +141,7 @@ class Dataset:
             else:
                 # if mixed-valued targets, complain --> we dont support this yet
                 message = 'We currently do not support emulation of mixed continuous-ordinal objective spaces'
-                Logger.log(messgae, 'FATAL')
+                Logger.log(message, 'FATAL')
 
 
             # define attributes of interest - done here so to avoid calling load_dataset again
@@ -533,9 +533,13 @@ class Dataset:
         # define train/valid indices for each fold
         self.cross_val_indices = []
         for i in range(self.num_folds):
-            fold_train = np.concatenate(
-                np.delete(self.cv_fold_indices, i, axis=0), axis=0
-            )
+            fold_train = []
+            for j, indices in enumerate(self.cv_fold_indices):
+                if i == j:
+                    continue
+                else:
+                    fold_train += indices.tolist()
+            fold_train = np.array(fold_train)
             fold_valid = self.cv_fold_indices[i]
             self.cross_val_indices.append([fold_train, fold_valid])
         # TODO: unfix random seed?

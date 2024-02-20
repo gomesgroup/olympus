@@ -204,10 +204,18 @@ class AbstractPlanner(Object, metaclass=ABCMeta):
             # get measurement from emulator/surface
             if verbose is True:
                 Logger.log(f"Obtaining measurement from emulator...", "INFO")
-            values = emulator.run(params.to_array(), return_paramvector=True)
+            
+            if isinstance(params, list):
+                for param_vec in params:
+                    param_arr = param_vec.to_array()
+                    values = emulator.run(param_arr, return_paramvector=True)
+                    campaign.add_observation(param_vec, values)
+            else:
+                
+                values = emulator.run(params.to_array(), return_paramvector=True)
 
-            # store parameter and measurement pair in campaign
-            campaign.add_observation(params, values)
+                # store parameter and measurement pair in campaign
+                campaign.add_observation(params, values)
 
         return campaign
 
