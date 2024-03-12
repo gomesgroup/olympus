@@ -84,7 +84,7 @@ class RandomSearch(AbstractPlanner):
                 # iterate through by iteration nunber
                 # TODO: treat the case where the number of requested observations
                 # out number the number of options in the dataset
-                cat_discr_vals = self.opts[self.iteration]
+                cat_discr_vals = self.opts[self.iteration-1]
 
         cat_discr_ind = 0
         for param in self.param_space:
