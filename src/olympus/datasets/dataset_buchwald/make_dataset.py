@@ -21,7 +21,9 @@ parameter_names = [
     "additive"
 ]
 
-data = raw_data[parameter_names]
+objective_name = "yield"
+
+data = raw_data[parameter_names + [objective_name]]
 # Convert nan to None
 data = data.fillna("None")
 
@@ -36,6 +38,11 @@ for parameter_name in parameter_names:
         "options": param_options,
         "descriptors": param_descriptors
     })
+
+config["measurements"].append({
+    "name": objective_name,
+    "type": "continuous"
+})
 
 # save data to  data.csv
 data.to_csv("data.csv", index=False)

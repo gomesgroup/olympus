@@ -9,8 +9,8 @@
             "name": "base",
             "type": "categorical",
             "options": [
-                "MTBD",
                 "BTMG",
+                "MTBD",
                 "P2Et"
             ],
             "descriptors": []
@@ -19,9 +19,9 @@
             "name": "ligand",
             "type": "categorical",
             "options": [
-                "XPhos",
-                "t-BuXPhos",
                 "AdBrettPhos",
+                "t-BuXPhos",
+                "XPhos",
                 "t-BuBrettPhos"
             ],
             "descriptors": []
@@ -30,22 +30,22 @@
             "name": "aryl_halide",
             "type": "categorical",
             "options": [
-                "1-bromo-4-ethylbenzene",
+                "1-chloro-4-(trifluoromethyl)benzene",
                 "1-iodo-4-(trifluoromethyl)benzene",
+                "3-chloropyridine",
+                "3-iodopyridine",
+                "2-chloropyridine",
+                "1-bromo-4-methoxybenzene",
+                "3-bromopyridine",
+                "1-chloro-4-ethylbenzene",
                 "None",
                 "1-iodo-4-methoxybenzene",
-                "1-bromo-4-(trifluoromethyl)benzene",
-                "1-chloro-4-(trifluoromethyl)benzene",
-                "3-iodopyridine",
-                "3-chloropyridine",
-                "3-bromopyridine",
-                "1-bromo-4-methoxybenzene",
-                "2-bromopyridine",
+                "1-bromo-4-ethylbenzene",
+                "1-ethyl-4-iodobenzene",
                 "2-iodopyridine",
-                "1-chloro-4-ethylbenzene",
-                "2-chloropyridine",
                 "1-chloro-4-methoxybenzene",
-                "1-ethyl-4-iodobenzene"
+                "1-bromo-4-(trifluoromethyl)benzene",
+                "2-bromopyridine"
             ],
             "descriptors": []
         },
@@ -53,34 +53,39 @@
             "name": "additive",
             "type": "categorical",
             "options": [
-                "3,5-dimethylisoxazole",
                 "N,N-dibenzylisoxazol-5-amine",
-                "5-(2,6-difluorophenyl)isoxazole",
-                "methyl-5-(thiophen-2-yl)isoxazole-3-carboxylate",
-                "methyl-5-(furan-2-yl)isoxazole-3-carboxylate",
-                "5-methyl-3-(1H-pyrrol-1-yl)isoxazole",
-                "ethyl-isoxazole-4-carboxylate",
-                "benzo[d]isoxazole",
-                "3-methyl-5-phenylisoxazole",
-                "benzo[c]isoxazole",
-                "ethyl-isoxazole-3-carboxylate",
-                "3-phenylisoxazole",
-                "methyl-isoxazole-5-carboxylate",
-                "ethyl-3-methoxyisoxazole-5-carboxylate",
-                "N,N-dibenzylisoxazol-3-amine",
                 "None",
-                "4-phenylisoxazole",
-                "ethyl-5-methylisoxazole-4-carboxylate",
-                "ethyl-5-methylisoxazole-3-carboxylate",
+                "methyl-isoxazole-5-carboxylate",
                 "5-phenylisoxazole",
+                "ethyl-3-methylisoxazole-5-carboxylate",
+                "3,5-dimethylisoxazole",
+                "benzo[c]isoxazole",
+                "5-methyl-3-(1H-pyrrol-1-yl)isoxazole",
+                "3-methyl-5-phenylisoxazole",
+                "3-phenylisoxazole",
                 "5-methylisoxazole",
+                "ethyl-isoxazole-4-carboxylate",
                 "3-methylisoxazole",
+                "5-(2,6-difluorophenyl)isoxazole",
+                "methyl-5-(furan-2-yl)isoxazole-3-carboxylate",
+                "ethyl-isoxazole-3-carboxylate",
+                "ethyl-5-methylisoxazole-3-carboxylate",
+                "4-phenylisoxazole",
+                "benzo[d]isoxazole",
                 "5-Phenyl-1,2,4-oxadiazole",
-                "ethyl-3-methylisoxazole-5-carboxylate"
+                "methyl-5-(thiophen-2-yl)isoxazole-3-carboxylate",
+                "ethyl-5-methylisoxazole-4-carboxylate",
+                "ethyl-3-methoxyisoxazole-5-carboxylate",
+                "N,N-dibenzylisoxazol-3-amine"
             ],
             "descriptors": []
         }
     ],
-    "measurements": [],
+    "measurements": [
+        {
+            "name": "yield",
+            "type": "continuous"
+        }
+    ],
     "default_goal": "maximize"
 }
