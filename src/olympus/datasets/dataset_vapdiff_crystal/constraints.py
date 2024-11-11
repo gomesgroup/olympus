@@ -3,8 +3,7 @@
 import pickle
 import numpy as np
 import pandas as pd
-import gurobipy as gp
-from gurobipy import GRB
+from pulp import *
 
 from olympus import __home__
 
@@ -54,54 +53,36 @@ def known_constraints(param_vec):
 
 
 def backward_check(target_molarities, alpha_vial_volume, df_hull):
-    ''' implementation by Dr. Qianxiang Ai
-
-    Args:
-        target_molarities (dict): dictionary of targeted molarities with chemname keys
-        alpha_vial_volume (float): total volume of the alpha vial
-        df_hull (pd.Dataframe): dataframe contianing the convex hull of molarities for
-            all stock solutions
-    '''
     chemnames = [str(c) for c in df_hull.columns]
     assert set(chemnames).issuperset(set(target_molarities.keys()))
     target_molarities_padded = np.zeros(len(df_hull.columns))
-
+    
     for i, chemname in enumerate(chemnames):
         try:
             target_molarities_padded[i] = target_molarities[chemname]
         except KeyError:
             continue
-
+    
     n_ss, n_chem = df_hull.shape
-
-    # init gurobi model, suppress output
-    with gp.Env(empty=True) as env:
-        env.setParam('OutputFlag', 0)
-        env.setParam('LogToConsole', 0)
-        env.start()
-        with gp.Model(env=env) as m:
-
-            v = []
-            for i in range(n_ss):
-                v_i = m.addVar(lb=0., name=str(i))  # add var
-                v.append(v_i)
-                m.addConstr(v_i >= 0., name=str(i))
-
-            m.addConstr(sum(v) == alpha_vial_volume, name='volume_sum')
-            for j in range(n_chem):
-                c = 0.
-                for i in range(n_ss):
-                    c += v[i] * df_hull.values[i][j]
-                m.addConstr(c == alpha_vial_volume * target_molarities_padded[j], name=chemnames[j])
-
-            # objective function
-            objective = 1
-
-            m.setObjective(objective, GRB.MINIMIZE)
-            m.optimize()
-
-            try:
-                sol = [v.x for v in m.getVars()]
-                return True
-            except AttributeError:
-                return False
+    
+    # Create LP problem
+    prob = LpProblem("backward_check", LpMinimize)
+    
+    # Create variables
+    v = [LpVariable(f"v{i}", lowBound=0) for i in range(n_ss)]
+    
+    # Objective function (can be arbitrary since we only care about feasibility)
+    prob += lpSum(v)
+    
+    # Add constraints
+    # Volume constraint
+    prob += lpSum(v) == alpha_vial_volume
+    
+    # Molarity constraints
+    for j in range(n_chem):
+        prob += lpSum(v[i] * df_hull.values[i][j] for i in range(n_ss)) == alpha_vial_volume * target_molarities_padded[j]
+    
+    # Solve
+    prob.solve(PULP_CBC_CMD(msg=False))
+    
+    return prob.status == LpStatusOptimal
