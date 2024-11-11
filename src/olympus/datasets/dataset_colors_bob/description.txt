@@ -1,4 +1,4 @@
-Color mixing dataset. Blablabla
+Color mixing dataset.
 
 =========================================
                 Summary

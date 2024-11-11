@@ -1,5 +1,5 @@
 Buchwald-Hartwig reaction optimization case 
-"a", with Y=CH, Z=CH, R=CF_3. This dataset
+with triflate aryl halides. This dataset
 is taken from Ahneman, D. T., Estrada, J. G.,
 Lin, S., Dreher, S. D. & Doyle, A. G. 
 Predicting reaction performance in C–N 
