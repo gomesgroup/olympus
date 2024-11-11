@@ -47,5 +47,11 @@ config["measurements"].append({
 # save data to  data.csv
 data.to_csv("data.csv", index=False)
 
+# make a scales.csv where each row is 0 1 2 for low medium high
+scales = [0.0 for _ in range(data.shape[0])]
+with open("scales.csv", "w") as f:
+    for scale in scales:
+        f.write(f"{scale}\n")
+
 # save config to config.json
 json.dump(config, open("config.json", "w"), indent=4)
