@@ -1,0 +1,83 @@
+{
+    "parameters": [
+        {
+            "name": "substrate",
+            "type": "categorical",
+            "options": [
+                "2-bromo-4-formylbenzonitrile",
+                "N-(4-formylphenyl)acetamide",
+                "3,4-dimethylbenzaldehyde",
+                "3-phenylpropanal",
+                "(E)-3-phenylprop-2-enal",
+                "benzyl 4-formylpiperidine-1-carboxylate",
+                "1,3-benzothiazole-2-carbaldehyde",
+                "3,7-dimethyloct-6-enal",
+                "benzyl 4-oxopiperidine-1-carboxylate",
+                "1-(3,4-difluorophenyl)piperidin-4-one",
+                "1-[3,5-bis(trifluoromethyl)phenyl]ethanone",
+                "1-(3,5-dimethylphenyl)ethanone",
+                "(E)-4-phenylbut-3-en-2-one",
+                "3-pyrazol-1-ylcyclopentan-1-one",
+                "cyclopentanone",
+                "2-(3-oxocyclopentyl)acetonitrile"
+            ],
+            "descriptors": []
+        },
+        {
+            "name": "AcOH_equiv",
+            "type": "discrete",
+            "options": [
+                1.0,
+                5.0,
+                3.0
+            ],
+            "low": 1.0,
+            "high": 5.0
+        },
+        {
+            "name": "TTIP_equiv",
+            "type": "discrete",
+            "options": [
+                1.0,
+                3.0,
+                5.0,
+                2.0
+            ],
+            "low": 1.0,
+            "high": 5.0
+        },
+        {
+            "name": "solvent",
+            "type": "categorical",
+            "options": [
+                "DMA",
+                "NMP"
+            ],
+            "descriptors": []
+        },
+        {
+            "name": "reaction_concentration_mM",
+            "type": "discrete",
+            "options": [
+                50.0,
+                100.0
+            ],
+            "low": 50.0,
+            "high": 100.0
+        }
+    ],
+    "constraints": {
+        "parameters": "none",
+        "measurements": "none",
+        "known": "no"
+    },
+    "measurements": [
+        {
+            "name": "percent_conversion",
+            "type": "continuous",
+            "low": 0,
+            "high": 100
+        }
+    ],
+    "default_goal": "maximize"
+}

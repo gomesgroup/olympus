@@ -1,0 +1,769 @@
+substrate,AcOH_equiv,TTIP_equiv,solvent,reaction_concentration_mM,percent_conversion
+2-bromo-4-formylbenzonitrile,1.0,1.0,DMA,50.0,11
+2-bromo-4-formylbenzonitrile,1.0,3.0,DMA,100.0,7
+2-bromo-4-formylbenzonitrile,5.0,3.0,NMP,100.0,100
+2-bromo-4-formylbenzonitrile,3.0,5.0,NMP,100.0,14
+2-bromo-4-formylbenzonitrile,3.0,5.0,NMP,50.0,13
+2-bromo-4-formylbenzonitrile,1.0,2.0,DMA,50.0,15
+2-bromo-4-formylbenzonitrile,3.0,1.0,NMP,50.0,96
+2-bromo-4-formylbenzonitrile,1.0,3.0,NMP,50.0,7
+2-bromo-4-formylbenzonitrile,1.0,1.0,NMP,100.0,77
+2-bromo-4-formylbenzonitrile,3.0,3.0,DMA,50.0,67
+2-bromo-4-formylbenzonitrile,3.0,2.0,DMA,100.0,90
+2-bromo-4-formylbenzonitrile,3.0,2.0,NMP,100.0,100
+2-bromo-4-formylbenzonitrile,5.0,5.0,NMP,50.0,33
+2-bromo-4-formylbenzonitrile,5.0,2.0,NMP,100.0,100
+2-bromo-4-formylbenzonitrile,3.0,3.0,DMA,100.0,45
+2-bromo-4-formylbenzonitrile,5.0,2.0,DMA,50.0,100
+2-bromo-4-formylbenzonitrile,3.0,1.0,NMP,100.0,98
+2-bromo-4-formylbenzonitrile,3.0,1.0,DMA,100.0,89
+2-bromo-4-formylbenzonitrile,5.0,1.0,DMA,50.0,100
+2-bromo-4-formylbenzonitrile,5.0,5.0,NMP,100.0,40
+2-bromo-4-formylbenzonitrile,1.0,5.0,DMA,100.0,11
+2-bromo-4-formylbenzonitrile,5.0,5.0,DMA,100.0,26
+2-bromo-4-formylbenzonitrile,1.0,1.0,NMP,50.0,70
+2-bromo-4-formylbenzonitrile,5.0,3.0,DMA,100.0,100
+2-bromo-4-formylbenzonitrile,1.0,2.0,NMP,100.0,25
+2-bromo-4-formylbenzonitrile,1.0,2.0,DMA,100.0,46
+2-bromo-4-formylbenzonitrile,1.0,1.0,DMA,100.0,89
+2-bromo-4-formylbenzonitrile,5.0,1.0,DMA,100.0,100
+2-bromo-4-formylbenzonitrile,3.0,2.0,NMP,50.0,84
+2-bromo-4-formylbenzonitrile,1.0,2.0,NMP,50.0,11
+2-bromo-4-formylbenzonitrile,5.0,3.0,DMA,50.0,96
+2-bromo-4-formylbenzonitrile,1.0,3.0,NMP,100.0,13
+2-bromo-4-formylbenzonitrile,3.0,5.0,DMA,100.0,16
+2-bromo-4-formylbenzonitrile,1.0,3.0,DMA,50.0,3
+2-bromo-4-formylbenzonitrile,5.0,2.0,NMP,50.0,100
+2-bromo-4-formylbenzonitrile,5.0,2.0,DMA,100.0,98
+2-bromo-4-formylbenzonitrile,3.0,3.0,NMP,50.0,58
+2-bromo-4-formylbenzonitrile,5.0,5.0,DMA,50.0,26
+2-bromo-4-formylbenzonitrile,3.0,5.0,DMA,50.0,9
+2-bromo-4-formylbenzonitrile,3.0,2.0,DMA,50.0,98
+2-bromo-4-formylbenzonitrile,1.0,5.0,DMA,50.0,4
+2-bromo-4-formylbenzonitrile,3.0,3.0,NMP,100.0,89
+2-bromo-4-formylbenzonitrile,1.0,5.0,NMP,50.0,7
+2-bromo-4-formylbenzonitrile,5.0,3.0,NMP,50.0,92
+2-bromo-4-formylbenzonitrile,5.0,1.0,NMP,100.0,100
+2-bromo-4-formylbenzonitrile,5.0,1.0,NMP,50.0,100
+2-bromo-4-formylbenzonitrile,1.0,5.0,NMP,100.0,5
+2-bromo-4-formylbenzonitrile,3.0,1.0,DMA,50.0,88
+N-(4-formylphenyl)acetamide,1.0,1.0,DMA,50.0,9
+N-(4-formylphenyl)acetamide,1.0,3.0,DMA,100.0,72
+N-(4-formylphenyl)acetamide,5.0,3.0,NMP,100.0,92
+N-(4-formylphenyl)acetamide,3.0,5.0,NMP,100.0,98
+N-(4-formylphenyl)acetamide,3.0,5.0,NMP,50.0,97
+N-(4-formylphenyl)acetamide,1.0,2.0,DMA,50.0,74
+N-(4-formylphenyl)acetamide,3.0,1.0,NMP,50.0,59
+N-(4-formylphenyl)acetamide,1.0,3.0,NMP,50.0,82
+N-(4-formylphenyl)acetamide,1.0,1.0,NMP,100.0,80
+N-(4-formylphenyl)acetamide,3.0,3.0,DMA,50.0,97
+N-(4-formylphenyl)acetamide,3.0,2.0,DMA,100.0,91
+N-(4-formylphenyl)acetamide,3.0,2.0,NMP,100.0,96
+N-(4-formylphenyl)acetamide,5.0,5.0,NMP,50.0,97
+N-(4-formylphenyl)acetamide,5.0,2.0,NMP,100.0,88
+N-(4-formylphenyl)acetamide,3.0,3.0,DMA,100.0,82
+N-(4-formylphenyl)acetamide,5.0,2.0,DMA,50.0,94
+N-(4-formylphenyl)acetamide,3.0,1.0,NMP,100.0,80
+N-(4-formylphenyl)acetamide,3.0,1.0,DMA,100.0,87
+N-(4-formylphenyl)acetamide,5.0,1.0,DMA,50.0,82
+N-(4-formylphenyl)acetamide,5.0,5.0,NMP,100.0,99
+N-(4-formylphenyl)acetamide,1.0,5.0,DMA,100.0,90
+N-(4-formylphenyl)acetamide,5.0,5.0,DMA,100.0,85
+N-(4-formylphenyl)acetamide,1.0,1.0,NMP,50.0,40
+N-(4-formylphenyl)acetamide,5.0,3.0,DMA,100.0,86
+N-(4-formylphenyl)acetamide,1.0,2.0,NMP,100.0,93
+N-(4-formylphenyl)acetamide,1.0,2.0,DMA,100.0,78
+N-(4-formylphenyl)acetamide,1.0,1.0,DMA,100.0,90
+N-(4-formylphenyl)acetamide,5.0,1.0,DMA,100.0,90
+N-(4-formylphenyl)acetamide,3.0,2.0,NMP,50.0,87
+N-(4-formylphenyl)acetamide,1.0,2.0,NMP,50.0,74
+N-(4-formylphenyl)acetamide,5.0,3.0,DMA,50.0,95
+N-(4-formylphenyl)acetamide,1.0,3.0,NMP,100.0,80
+N-(4-formylphenyl)acetamide,3.0,5.0,DMA,100.0,95
+N-(4-formylphenyl)acetamide,1.0,3.0,DMA,50.0,75
+N-(4-formylphenyl)acetamide,5.0,2.0,NMP,50.0,85
+N-(4-formylphenyl)acetamide,5.0,2.0,DMA,100.0,80
+N-(4-formylphenyl)acetamide,3.0,3.0,NMP,50.0,97
+N-(4-formylphenyl)acetamide,5.0,5.0,DMA,50.0,95
+N-(4-formylphenyl)acetamide,3.0,5.0,DMA,50.0,97
+N-(4-formylphenyl)acetamide,3.0,2.0,DMA,50.0,88
+N-(4-formylphenyl)acetamide,1.0,5.0,DMA,50.0,52
+N-(4-formylphenyl)acetamide,3.0,3.0,NMP,100.0,96
+N-(4-formylphenyl)acetamide,1.0,5.0,NMP,50.0,58
+N-(4-formylphenyl)acetamide,5.0,3.0,NMP,50.0,96
+N-(4-formylphenyl)acetamide,5.0,1.0,NMP,100.0,80
+N-(4-formylphenyl)acetamide,5.0,1.0,NMP,50.0,65
+N-(4-formylphenyl)acetamide,1.0,5.0,NMP,100.0,73
+N-(4-formylphenyl)acetamide,3.0,1.0,DMA,50.0,74
+"3,4-dimethylbenzaldehyde",1.0,1.0,DMA,50.0,2
+"3,4-dimethylbenzaldehyde",1.0,3.0,DMA,100.0,52
+"3,4-dimethylbenzaldehyde",5.0,3.0,NMP,100.0,77
+"3,4-dimethylbenzaldehyde",3.0,5.0,NMP,100.0,74
+"3,4-dimethylbenzaldehyde",3.0,5.0,NMP,50.0,100
+"3,4-dimethylbenzaldehyde",1.0,2.0,DMA,50.0,13
+"3,4-dimethylbenzaldehyde",3.0,1.0,NMP,50.0,32
+"3,4-dimethylbenzaldehyde",1.0,3.0,NMP,50.0,64
+"3,4-dimethylbenzaldehyde",1.0,1.0,NMP,100.0,39
+"3,4-dimethylbenzaldehyde",3.0,3.0,DMA,50.0,97
+"3,4-dimethylbenzaldehyde",3.0,2.0,DMA,100.0,79
+"3,4-dimethylbenzaldehyde",3.0,2.0,NMP,100.0,78
+"3,4-dimethylbenzaldehyde",5.0,5.0,NMP,50.0,98
+"3,4-dimethylbenzaldehyde",5.0,2.0,NMP,100.0,73
+"3,4-dimethylbenzaldehyde",3.0,3.0,DMA,100.0,72
+"3,4-dimethylbenzaldehyde",5.0,2.0,DMA,50.0,91
+"3,4-dimethylbenzaldehyde",3.0,1.0,NMP,100.0,56
+"3,4-dimethylbenzaldehyde",3.0,1.0,DMA,100.0,44
+"3,4-dimethylbenzaldehyde",5.0,1.0,DMA,50.0,49
+"3,4-dimethylbenzaldehyde",5.0,5.0,NMP,100.0,82
+"3,4-dimethylbenzaldehyde",1.0,5.0,DMA,100.0,53
+"3,4-dimethylbenzaldehyde",5.0,5.0,DMA,100.0,55
+"3,4-dimethylbenzaldehyde",1.0,1.0,NMP,50.0,16
+"3,4-dimethylbenzaldehyde",5.0,3.0,DMA,100.0,70
+"3,4-dimethylbenzaldehyde",1.0,2.0,NMP,100.0,50
+"3,4-dimethylbenzaldehyde",1.0,2.0,DMA,100.0,46
+"3,4-dimethylbenzaldehyde",1.0,1.0,DMA,100.0,33
+"3,4-dimethylbenzaldehyde",5.0,1.0,DMA,100.0,44
+"3,4-dimethylbenzaldehyde",3.0,2.0,NMP,50.0,66
+"3,4-dimethylbenzaldehyde",1.0,2.0,NMP,50.0,50
+"3,4-dimethylbenzaldehyde",5.0,3.0,DMA,50.0,94
+"3,4-dimethylbenzaldehyde",1.0,3.0,NMP,100.0,45
+"3,4-dimethylbenzaldehyde",3.0,5.0,DMA,100.0,62
+"3,4-dimethylbenzaldehyde",1.0,3.0,DMA,50.0,33
+"3,4-dimethylbenzaldehyde",5.0,2.0,NMP,50.0,75
+"3,4-dimethylbenzaldehyde",5.0,2.0,DMA,100.0,55
+"3,4-dimethylbenzaldehyde",3.0,3.0,NMP,50.0,92
+"3,4-dimethylbenzaldehyde",5.0,5.0,DMA,50.0,96
+"3,4-dimethylbenzaldehyde",3.0,5.0,DMA,50.0,98
+"3,4-dimethylbenzaldehyde",3.0,2.0,DMA,50.0,70
+"3,4-dimethylbenzaldehyde",1.0,5.0,DMA,50.0,38
+"3,4-dimethylbenzaldehyde",3.0,3.0,NMP,100.0,75
+"3,4-dimethylbenzaldehyde",1.0,5.0,NMP,50.0,42
+"3,4-dimethylbenzaldehyde",5.0,3.0,NMP,50.0,97
+"3,4-dimethylbenzaldehyde",5.0,1.0,NMP,100.0,52
+"3,4-dimethylbenzaldehyde",5.0,1.0,NMP,50.0,36
+"3,4-dimethylbenzaldehyde",1.0,5.0,NMP,100.0,51
+"3,4-dimethylbenzaldehyde",3.0,1.0,DMA,50.0,32
+3-phenylpropanal,1.0,1.0,DMA,50.0,2
+3-phenylpropanal,1.0,3.0,DMA,100.0,23
+3-phenylpropanal,5.0,3.0,NMP,100.0,29
+3-phenylpropanal,3.0,5.0,NMP,100.0,28
+3-phenylpropanal,3.0,5.0,NMP,50.0,36
+3-phenylpropanal,1.0,2.0,DMA,50.0,13
+3-phenylpropanal,3.0,1.0,NMP,50.0,33
+3-phenylpropanal,1.0,3.0,NMP,50.0,30
+3-phenylpropanal,1.0,1.0,NMP,100.0,26
+3-phenylpropanal,3.0,3.0,DMA,50.0,39
+3-phenylpropanal,3.0,2.0,DMA,100.0,27
+3-phenylpropanal,3.0,2.0,NMP,100.0,31
+3-phenylpropanal,5.0,5.0,NMP,50.0,43
+3-phenylpropanal,5.0,2.0,NMP,100.0,31
+3-phenylpropanal,3.0,3.0,DMA,100.0,24
+3-phenylpropanal,5.0,2.0,DMA,50.0,55
+3-phenylpropanal,3.0,1.0,NMP,100.0,24
+3-phenylpropanal,3.0,1.0,DMA,100.0,20
+3-phenylpropanal,5.0,1.0,DMA,50.0,38
+3-phenylpropanal,5.0,5.0,NMP,100.0,31
+3-phenylpropanal,1.0,5.0,DMA,100.0,19
+3-phenylpropanal,5.0,5.0,DMA,100.0,27
+3-phenylpropanal,1.0,1.0,NMP,50.0,27
+3-phenylpropanal,5.0,3.0,DMA,100.0,27
+3-phenylpropanal,1.0,2.0,NMP,100.0,22
+3-phenylpropanal,1.0,2.0,DMA,100.0,21
+3-phenylpropanal,1.0,1.0,DMA,100.0,18
+3-phenylpropanal,5.0,1.0,DMA,100.0,21
+3-phenylpropanal,3.0,2.0,NMP,50.0,39
+3-phenylpropanal,1.0,2.0,NMP,50.0,26
+3-phenylpropanal,5.0,3.0,DMA,50.0,57
+3-phenylpropanal,1.0,3.0,NMP,100.0,27
+3-phenylpropanal,3.0,5.0,DMA,100.0,21
+3-phenylpropanal,1.0,3.0,DMA,50.0,18
+3-phenylpropanal,5.0,2.0,NMP,50.0,47
+3-phenylpropanal,5.0,2.0,DMA,100.0,25
+3-phenylpropanal,3.0,3.0,NMP,50.0,38
+3-phenylpropanal,5.0,5.0,DMA,50.0,54
+3-phenylpropanal,3.0,5.0,DMA,50.0,40
+3-phenylpropanal,3.0,2.0,DMA,50.0,40
+3-phenylpropanal,1.0,5.0,DMA,50.0,20
+3-phenylpropanal,3.0,3.0,NMP,100.0,30
+3-phenylpropanal,1.0,5.0,NMP,50.0,30
+3-phenylpropanal,5.0,3.0,NMP,50.0,44
+3-phenylpropanal,5.0,1.0,NMP,100.0,27
+3-phenylpropanal,5.0,1.0,NMP,50.0,36
+3-phenylpropanal,1.0,5.0,NMP,100.0,24
+3-phenylpropanal,3.0,1.0,DMA,50.0,25
+(E)-3-phenylprop-2-enal,1.0,1.0,DMA,50.0,7
+(E)-3-phenylprop-2-enal,1.0,3.0,DMA,100.0,37
+(E)-3-phenylprop-2-enal,5.0,3.0,NMP,100.0,22
+(E)-3-phenylprop-2-enal,3.0,5.0,NMP,100.0,20
+(E)-3-phenylprop-2-enal,3.0,5.0,NMP,50.0,37
+(E)-3-phenylprop-2-enal,1.0,2.0,DMA,50.0,23
+(E)-3-phenylprop-2-enal,3.0,1.0,NMP,50.0,43
+(E)-3-phenylprop-2-enal,1.0,3.0,NMP,50.0,37
+(E)-3-phenylprop-2-enal,1.0,1.0,NMP,100.0,23
+(E)-3-phenylprop-2-enal,3.0,3.0,DMA,50.0,46
+(E)-3-phenylprop-2-enal,3.0,2.0,DMA,100.0,30
+(E)-3-phenylprop-2-enal,3.0,2.0,NMP,100.0,24
+(E)-3-phenylprop-2-enal,5.0,5.0,NMP,50.0,35
+(E)-3-phenylprop-2-enal,5.0,2.0,NMP,100.0,32
+(E)-3-phenylprop-2-enal,3.0,3.0,DMA,100.0,29
+(E)-3-phenylprop-2-enal,5.0,2.0,DMA,50.0,74
+(E)-3-phenylprop-2-enal,3.0,1.0,NMP,100.0,29
+(E)-3-phenylprop-2-enal,3.0,1.0,DMA,100.0,32
+(E)-3-phenylprop-2-enal,5.0,1.0,DMA,50.0,70
+(E)-3-phenylprop-2-enal,5.0,5.0,NMP,100.0,23
+(E)-3-phenylprop-2-enal,1.0,5.0,DMA,100.0,35
+(E)-3-phenylprop-2-enal,5.0,5.0,DMA,100.0,32
+(E)-3-phenylprop-2-enal,1.0,1.0,NMP,50.0,35
+(E)-3-phenylprop-2-enal,5.0,3.0,DMA,100.0,31
+(E)-3-phenylprop-2-enal,1.0,2.0,NMP,100.0,27
+(E)-3-phenylprop-2-enal,1.0,2.0,DMA,100.0,38
+(E)-3-phenylprop-2-enal,1.0,1.0,DMA,100.0,34
+(E)-3-phenylprop-2-enal,5.0,1.0,DMA,100.0,34
+(E)-3-phenylprop-2-enal,3.0,2.0,NMP,50.0,40
+(E)-3-phenylprop-2-enal,1.0,2.0,NMP,50.0,35
+(E)-3-phenylprop-2-enal,5.0,3.0,DMA,50.0,62
+(E)-3-phenylprop-2-enal,1.0,3.0,NMP,100.0,24
+(E)-3-phenylprop-2-enal,3.0,5.0,DMA,100.0,28
+(E)-3-phenylprop-2-enal,1.0,3.0,DMA,50.0,28
+(E)-3-phenylprop-2-enal,5.0,2.0,NMP,50.0,60
+(E)-3-phenylprop-2-enal,5.0,2.0,DMA,100.0,35
+(E)-3-phenylprop-2-enal,3.0,3.0,NMP,50.0,33
+(E)-3-phenylprop-2-enal,5.0,5.0,DMA,50.0,53
+(E)-3-phenylprop-2-enal,3.0,5.0,DMA,50.0,52
+(E)-3-phenylprop-2-enal,3.0,2.0,DMA,50.0,49
+(E)-3-phenylprop-2-enal,1.0,5.0,DMA,50.0,34
+(E)-3-phenylprop-2-enal,3.0,3.0,NMP,100.0,21
+(E)-3-phenylprop-2-enal,1.0,5.0,NMP,50.0,35
+(E)-3-phenylprop-2-enal,5.0,3.0,NMP,50.0,41
+(E)-3-phenylprop-2-enal,5.0,1.0,NMP,100.0,30
+(E)-3-phenylprop-2-enal,5.0,1.0,NMP,50.0,49
+(E)-3-phenylprop-2-enal,1.0,5.0,NMP,100.0,24
+(E)-3-phenylprop-2-enal,3.0,1.0,DMA,50.0,48
+benzyl 4-formylpiperidine-1-carboxylate,1.0,1.0,DMA,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,1.0,3.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,3.0,NMP,100.0,15
+benzyl 4-formylpiperidine-1-carboxylate,3.0,5.0,NMP,100.0,10
+benzyl 4-formylpiperidine-1-carboxylate,3.0,5.0,NMP,50.0,12
+benzyl 4-formylpiperidine-1-carboxylate,1.0,2.0,DMA,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,1.0,NMP,50.0,18
+benzyl 4-formylpiperidine-1-carboxylate,1.0,3.0,NMP,50.0,11
+benzyl 4-formylpiperidine-1-carboxylate,1.0,1.0,NMP,100.0,12
+benzyl 4-formylpiperidine-1-carboxylate,3.0,3.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,3.0,2.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,2.0,NMP,100.0,13
+benzyl 4-formylpiperidine-1-carboxylate,5.0,5.0,NMP,50.0,18
+benzyl 4-formylpiperidine-1-carboxylate,5.0,2.0,NMP,100.0,14
+benzyl 4-formylpiperidine-1-carboxylate,3.0,3.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,2.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,3.0,1.0,NMP,100.0,14
+benzyl 4-formylpiperidine-1-carboxylate,3.0,1.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,1.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,5.0,5.0,NMP,100.0,11
+benzyl 4-formylpiperidine-1-carboxylate,1.0,5.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,5.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,1.0,1.0,NMP,50.0,13
+benzyl 4-formylpiperidine-1-carboxylate,5.0,3.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,1.0,2.0,NMP,100.0,11
+benzyl 4-formylpiperidine-1-carboxylate,1.0,2.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,1.0,1.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,1.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,2.0,NMP,50.0,22
+benzyl 4-formylpiperidine-1-carboxylate,1.0,2.0,NMP,50.0,13
+benzyl 4-formylpiperidine-1-carboxylate,5.0,3.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,1.0,3.0,NMP,100.0,9
+benzyl 4-formylpiperidine-1-carboxylate,3.0,5.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,1.0,3.0,DMA,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,2.0,NMP,50.0,30
+benzyl 4-formylpiperidine-1-carboxylate,5.0,2.0,DMA,100.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,3.0,NMP,50.0,20
+benzyl 4-formylpiperidine-1-carboxylate,5.0,5.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,3.0,5.0,DMA,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,2.0,DMA,50.0,1
+benzyl 4-formylpiperidine-1-carboxylate,1.0,5.0,DMA,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,3.0,3.0,NMP,100.0,14
+benzyl 4-formylpiperidine-1-carboxylate,1.0,5.0,NMP,50.0,0
+benzyl 4-formylpiperidine-1-carboxylate,5.0,3.0,NMP,50.0,22
+benzyl 4-formylpiperidine-1-carboxylate,5.0,1.0,NMP,100.0,14
+benzyl 4-formylpiperidine-1-carboxylate,5.0,1.0,NMP,50.0,24
+benzyl 4-formylpiperidine-1-carboxylate,1.0,5.0,NMP,100.0,9
+benzyl 4-formylpiperidine-1-carboxylate,3.0,1.0,DMA,50.0,0
+"1,3-benzothiazole-2-carbaldehyde",1.0,1.0,DMA,50.0,7
+"1,3-benzothiazole-2-carbaldehyde",1.0,3.0,DMA,100.0,21
+"1,3-benzothiazole-2-carbaldehyde",5.0,3.0,NMP,100.0,98
+"1,3-benzothiazole-2-carbaldehyde",3.0,5.0,NMP,100.0,15
+"1,3-benzothiazole-2-carbaldehyde",3.0,5.0,NMP,50.0,22
+"1,3-benzothiazole-2-carbaldehyde",1.0,2.0,DMA,50.0,18
+"1,3-benzothiazole-2-carbaldehyde",3.0,1.0,NMP,50.0,70
+"1,3-benzothiazole-2-carbaldehyde",1.0,3.0,NMP,50.0,24
+"1,3-benzothiazole-2-carbaldehyde",1.0,1.0,NMP,100.0,40
+"1,3-benzothiazole-2-carbaldehyde",3.0,3.0,DMA,50.0,64
+"1,3-benzothiazole-2-carbaldehyde",3.0,2.0,DMA,100.0,88
+"1,3-benzothiazole-2-carbaldehyde",3.0,2.0,NMP,100.0,96
+"1,3-benzothiazole-2-carbaldehyde",5.0,5.0,NMP,50.0,34
+"1,3-benzothiazole-2-carbaldehyde",5.0,2.0,NMP,100.0,99
+"1,3-benzothiazole-2-carbaldehyde",3.0,3.0,DMA,100.0,80
+"1,3-benzothiazole-2-carbaldehyde",5.0,2.0,DMA,50.0,91
+"1,3-benzothiazole-2-carbaldehyde",3.0,1.0,NMP,100.0,68
+"1,3-benzothiazole-2-carbaldehyde",3.0,1.0,DMA,100.0,60
+"1,3-benzothiazole-2-carbaldehyde",5.0,1.0,DMA,50.0,92
+"1,3-benzothiazole-2-carbaldehyde",5.0,5.0,NMP,100.0,45
+"1,3-benzothiazole-2-carbaldehyde",1.0,5.0,DMA,100.0,8
+"1,3-benzothiazole-2-carbaldehyde",5.0,5.0,DMA,100.0,39
+"1,3-benzothiazole-2-carbaldehyde",1.0,1.0,NMP,50.0,60
+"1,3-benzothiazole-2-carbaldehyde",5.0,3.0,DMA,100.0,97
+"1,3-benzothiazole-2-carbaldehyde",1.0,2.0,NMP,100.0,36
+"1,3-benzothiazole-2-carbaldehyde",1.0,2.0,DMA,100.0,41
+"1,3-benzothiazole-2-carbaldehyde",1.0,1.0,DMA,100.0,45
+"1,3-benzothiazole-2-carbaldehyde",5.0,1.0,DMA,100.0,58
+"1,3-benzothiazole-2-carbaldehyde",3.0,2.0,NMP,50.0,77
+"1,3-benzothiazole-2-carbaldehyde",1.0,2.0,NMP,50.0,47
+"1,3-benzothiazole-2-carbaldehyde",5.0,3.0,DMA,50.0,81
+"1,3-benzothiazole-2-carbaldehyde",1.0,3.0,NMP,100.0,17
+"1,3-benzothiazole-2-carbaldehyde",3.0,5.0,DMA,100.0,15
+"1,3-benzothiazole-2-carbaldehyde",1.0,3.0,DMA,50.0,14
+"1,3-benzothiazole-2-carbaldehyde",5.0,2.0,NMP,50.0,90
+"1,3-benzothiazole-2-carbaldehyde",5.0,2.0,DMA,100.0,99
+"1,3-benzothiazole-2-carbaldehyde",3.0,3.0,NMP,50.0,57
+"1,3-benzothiazole-2-carbaldehyde",5.0,5.0,DMA,50.0,50
+"1,3-benzothiazole-2-carbaldehyde",3.0,5.0,DMA,50.0,24
+"1,3-benzothiazole-2-carbaldehyde",3.0,2.0,DMA,50.0,79
+"1,3-benzothiazole-2-carbaldehyde",1.0,5.0,DMA,50.0,6
+"1,3-benzothiazole-2-carbaldehyde",3.0,3.0,NMP,100.0,73
+"1,3-benzothiazole-2-carbaldehyde",1.0,5.0,NMP,50.0,7
+"1,3-benzothiazole-2-carbaldehyde",5.0,3.0,NMP,50.0,80
+"1,3-benzothiazole-2-carbaldehyde",5.0,1.0,NMP,100.0,81
+"1,3-benzothiazole-2-carbaldehyde",5.0,1.0,NMP,50.0,80
+"1,3-benzothiazole-2-carbaldehyde",1.0,5.0,NMP,100.0,8
+"1,3-benzothiazole-2-carbaldehyde",3.0,1.0,DMA,50.0,61
+"3,7-dimethyloct-6-enal",1.0,1.0,DMA,50.0,2
+"3,7-dimethyloct-6-enal",1.0,3.0,DMA,100.0,30
+"3,7-dimethyloct-6-enal",5.0,3.0,NMP,100.0,64
+"3,7-dimethyloct-6-enal",3.0,5.0,NMP,100.0,35
+"3,7-dimethyloct-6-enal",3.0,5.0,NMP,50.0,70
+"3,7-dimethyloct-6-enal",1.0,2.0,DMA,50.0,17
+"3,7-dimethyloct-6-enal",3.0,1.0,NMP,50.0,76
+"3,7-dimethyloct-6-enal",1.0,3.0,NMP,50.0,40
+"3,7-dimethyloct-6-enal",1.0,1.0,NMP,100.0,36
+"3,7-dimethyloct-6-enal",3.0,3.0,DMA,50.0,60
+"3,7-dimethyloct-6-enal",3.0,2.0,DMA,100.0,42
+"3,7-dimethyloct-6-enal",3.0,2.0,NMP,100.0,57
+"3,7-dimethyloct-6-enal",5.0,5.0,NMP,50.0,90
+"3,7-dimethyloct-6-enal",5.0,2.0,NMP,100.0,64
+"3,7-dimethyloct-6-enal",3.0,3.0,DMA,100.0,37
+"3,7-dimethyloct-6-enal",5.0,2.0,DMA,50.0,98
+"3,7-dimethyloct-6-enal",3.0,1.0,NMP,100.0,46
+"3,7-dimethyloct-6-enal",3.0,1.0,DMA,100.0,30
+"3,7-dimethyloct-6-enal",5.0,1.0,DMA,50.0,73
+"3,7-dimethyloct-6-enal",5.0,5.0,NMP,100.0,50
+"3,7-dimethyloct-6-enal",1.0,5.0,DMA,100.0,23
+"3,7-dimethyloct-6-enal",5.0,5.0,DMA,100.0,35
+"3,7-dimethyloct-6-enal",1.0,1.0,NMP,50.0,69
+"3,7-dimethyloct-6-enal",5.0,3.0,DMA,100.0,43
+"3,7-dimethyloct-6-enal",1.0,2.0,NMP,100.0,41
+"3,7-dimethyloct-6-enal",1.0,2.0,DMA,100.0,32
+"3,7-dimethyloct-6-enal",1.0,1.0,DMA,100.0,28
+"3,7-dimethyloct-6-enal",5.0,1.0,DMA,100.0,37
+"3,7-dimethyloct-6-enal",3.0,2.0,NMP,50.0,93
+"3,7-dimethyloct-6-enal",1.0,2.0,NMP,50.0,69
+"3,7-dimethyloct-6-enal",5.0,3.0,DMA,50.0,97
+"3,7-dimethyloct-6-enal",1.0,3.0,NMP,100.0,34
+"3,7-dimethyloct-6-enal",3.0,5.0,DMA,100.0,30
+"3,7-dimethyloct-6-enal",1.0,3.0,DMA,50.0,1
+"3,7-dimethyloct-6-enal",5.0,2.0,NMP,50.0,99
+"3,7-dimethyloct-6-enal",5.0,2.0,DMA,100.0,45
+"3,7-dimethyloct-6-enal",3.0,3.0,NMP,50.0,90
+"3,7-dimethyloct-6-enal",5.0,5.0,DMA,50.0,90
+"3,7-dimethyloct-6-enal",3.0,5.0,DMA,50.0,46
+"3,7-dimethyloct-6-enal",3.0,2.0,DMA,50.0,67
+"3,7-dimethyloct-6-enal",1.0,5.0,DMA,50.0,25
+"3,7-dimethyloct-6-enal",3.0,3.0,NMP,100.0,49
+"3,7-dimethyloct-6-enal",1.0,5.0,NMP,50.0,51
+"3,7-dimethyloct-6-enal",5.0,3.0,NMP,50.0,89
+"3,7-dimethyloct-6-enal",5.0,1.0,NMP,100.0,48
+"3,7-dimethyloct-6-enal",5.0,1.0,NMP,50.0,92
+"3,7-dimethyloct-6-enal",1.0,5.0,NMP,100.0,29
+"3,7-dimethyloct-6-enal",3.0,1.0,DMA,50.0,37
+benzyl 4-oxopiperidine-1-carboxylate,1.0,1.0,DMA,50.0,0
+benzyl 4-oxopiperidine-1-carboxylate,1.0,3.0,DMA,100.0,2
+benzyl 4-oxopiperidine-1-carboxylate,5.0,3.0,NMP,100.0,45
+benzyl 4-oxopiperidine-1-carboxylate,3.0,5.0,NMP,100.0,5
+benzyl 4-oxopiperidine-1-carboxylate,3.0,5.0,NMP,50.0,3
+benzyl 4-oxopiperidine-1-carboxylate,1.0,2.0,DMA,50.0,1
+benzyl 4-oxopiperidine-1-carboxylate,3.0,1.0,NMP,50.0,5
+benzyl 4-oxopiperidine-1-carboxylate,1.0,3.0,NMP,50.0,1
+benzyl 4-oxopiperidine-1-carboxylate,1.0,1.0,NMP,100.0,6
+benzyl 4-oxopiperidine-1-carboxylate,3.0,3.0,DMA,50.0,18
+benzyl 4-oxopiperidine-1-carboxylate,3.0,2.0,DMA,100.0,19
+benzyl 4-oxopiperidine-1-carboxylate,3.0,2.0,NMP,100.0,29
+benzyl 4-oxopiperidine-1-carboxylate,5.0,5.0,NMP,50.0,26
+benzyl 4-oxopiperidine-1-carboxylate,5.0,2.0,NMP,100.0,44
+benzyl 4-oxopiperidine-1-carboxylate,3.0,3.0,DMA,100.0,13
+benzyl 4-oxopiperidine-1-carboxylate,5.0,2.0,DMA,50.0,28
+benzyl 4-oxopiperidine-1-carboxylate,3.0,1.0,NMP,100.0,24
+benzyl 4-oxopiperidine-1-carboxylate,3.0,1.0,DMA,100.0,13
+benzyl 4-oxopiperidine-1-carboxylate,5.0,1.0,DMA,50.0,13
+benzyl 4-oxopiperidine-1-carboxylate,5.0,5.0,NMP,100.0,36
+benzyl 4-oxopiperidine-1-carboxylate,1.0,5.0,DMA,100.0,1
+benzyl 4-oxopiperidine-1-carboxylate,5.0,5.0,DMA,100.0,23
+benzyl 4-oxopiperidine-1-carboxylate,1.0,1.0,NMP,50.0,2
+benzyl 4-oxopiperidine-1-carboxylate,5.0,3.0,DMA,100.0,44
+benzyl 4-oxopiperidine-1-carboxylate,1.0,2.0,NMP,100.0,3
+benzyl 4-oxopiperidine-1-carboxylate,1.0,2.0,DMA,100.0,0
+benzyl 4-oxopiperidine-1-carboxylate,1.0,1.0,DMA,100.0,4
+benzyl 4-oxopiperidine-1-carboxylate,5.0,1.0,DMA,100.0,19
+benzyl 4-oxopiperidine-1-carboxylate,3.0,2.0,NMP,50.0,10
+benzyl 4-oxopiperidine-1-carboxylate,1.0,2.0,NMP,50.0,2
+benzyl 4-oxopiperidine-1-carboxylate,5.0,3.0,DMA,50.0,40
+benzyl 4-oxopiperidine-1-carboxylate,1.0,3.0,NMP,100.0,1
+benzyl 4-oxopiperidine-1-carboxylate,3.0,5.0,DMA,100.0,2
+benzyl 4-oxopiperidine-1-carboxylate,1.0,3.0,DMA,50.0,0
+benzyl 4-oxopiperidine-1-carboxylate,5.0,2.0,NMP,50.0,15
+benzyl 4-oxopiperidine-1-carboxylate,5.0,2.0,DMA,100.0,41
+benzyl 4-oxopiperidine-1-carboxylate,3.0,3.0,NMP,50.0,13
+benzyl 4-oxopiperidine-1-carboxylate,5.0,5.0,DMA,50.0,37
+benzyl 4-oxopiperidine-1-carboxylate,3.0,5.0,DMA,50.0,2
+benzyl 4-oxopiperidine-1-carboxylate,3.0,2.0,DMA,50.0,13
+benzyl 4-oxopiperidine-1-carboxylate,1.0,5.0,DMA,50.0,1
+benzyl 4-oxopiperidine-1-carboxylate,3.0,3.0,NMP,100.0,25
+benzyl 4-oxopiperidine-1-carboxylate,1.0,5.0,NMP,50.0,1
+benzyl 4-oxopiperidine-1-carboxylate,5.0,3.0,NMP,50.0,24
+benzyl 4-oxopiperidine-1-carboxylate,5.0,1.0,NMP,100.0,29
+benzyl 4-oxopiperidine-1-carboxylate,5.0,1.0,NMP,50.0,8
+benzyl 4-oxopiperidine-1-carboxylate,1.0,5.0,NMP,100.0,1
+benzyl 4-oxopiperidine-1-carboxylate,3.0,1.0,DMA,50.0,8
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,1.0,DMA,50.0,1
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,3.0,DMA,100.0,1
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,3.0,NMP,100.0,45
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,5.0,NMP,100.0,5
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,5.0,NMP,50.0,3
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,2.0,DMA,50.0,1
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,1.0,NMP,50.0,5
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,3.0,NMP,50.0,0
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,1.0,NMP,100.0,5
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,3.0,DMA,50.0,16
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,2.0,DMA,100.0,16
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,2.0,NMP,100.0,28
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,5.0,NMP,50.0,24
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,2.0,NMP,100.0,46
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,3.0,DMA,100.0,10
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,2.0,DMA,50.0,36
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,1.0,NMP,100.0,24
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,1.0,DMA,100.0,15
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,1.0,DMA,50.0,19
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,5.0,NMP,100.0,36
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,5.0,DMA,100.0,1
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,5.0,DMA,100.0,20
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,1.0,NMP,50.0,0
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,3.0,DMA,100.0,40
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,2.0,NMP,100.0,4
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,2.0,DMA,100.0,4
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,1.0,DMA,100.0,3
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,1.0,DMA,100.0,25
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,2.0,NMP,50.0,10
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,2.0,NMP,50.0,0
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,3.0,DMA,50.0,41
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,3.0,NMP,100.0,2
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,5.0,DMA,100.0,2
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,3.0,DMA,50.0,10
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,2.0,NMP,50.0,25
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,2.0,DMA,100.0,48
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,3.0,NMP,50.0,11
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,5.0,DMA,50.0,44
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,5.0,DMA,50.0,3
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,2.0,DMA,50.0,16
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,5.0,DMA,50.0,1
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,3.0,NMP,100.0,20
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,5.0,NMP,50.0,2
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,3.0,NMP,50.0,22
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,1.0,NMP,100.0,34
+"1-(3,4-difluorophenyl)piperidin-4-one",5.0,1.0,NMP,50.0,9
+"1-(3,4-difluorophenyl)piperidin-4-one",1.0,5.0,NMP,100.0,2
+"1-(3,4-difluorophenyl)piperidin-4-one",3.0,1.0,DMA,50.0,15
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,1.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,3.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,3.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,5.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,5.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,2.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,1.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,3.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,1.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,3.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,2.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,2.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,5.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,2.0,NMP,100.0,1
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,3.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,2.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,1.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,1.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,1.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,5.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,5.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,5.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,1.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,3.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,2.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,2.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,1.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,1.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,2.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,2.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,3.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,3.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,5.0,DMA,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,3.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,2.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,2.0,DMA,100.0,1
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,3.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,5.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,5.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,2.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,5.0,DMA,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,3.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,5.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,3.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,1.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",5.0,1.0,NMP,50.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",1.0,5.0,NMP,100.0,0
+"1-[3,5-bis(trifluoromethyl)phenyl]ethanone",3.0,1.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,1.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,3.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,3.0,NMP,100.0,1
+"1-(3,5-dimethylphenyl)ethanone",3.0,5.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,5.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,2.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,1.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,3.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,1.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,3.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,2.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,2.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,5.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,2.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,3.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,2.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,1.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,1.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,1.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,5.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,5.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,5.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,1.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,3.0,DMA,100.0,1
+"1-(3,5-dimethylphenyl)ethanone",1.0,2.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,2.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,1.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,1.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,2.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,2.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,3.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,3.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,5.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,3.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,2.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,2.0,DMA,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,3.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,5.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,5.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,2.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,5.0,DMA,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,3.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,5.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,3.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,1.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",5.0,1.0,NMP,50.0,0
+"1-(3,5-dimethylphenyl)ethanone",1.0,5.0,NMP,100.0,0
+"1-(3,5-dimethylphenyl)ethanone",3.0,1.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,1.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,3.0,DMA,100.0,1
+(E)-4-phenylbut-3-en-2-one,5.0,3.0,NMP,100.0,6
+(E)-4-phenylbut-3-en-2-one,3.0,5.0,NMP,100.0,2
+(E)-4-phenylbut-3-en-2-one,3.0,5.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,2.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,1.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,3.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,1.0,NMP,100.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,3.0,DMA,50.0,1
+(E)-4-phenylbut-3-en-2-one,3.0,2.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,2.0,NMP,100.0,2
+(E)-4-phenylbut-3-en-2-one,5.0,5.0,NMP,50.0,1
+(E)-4-phenylbut-3-en-2-one,5.0,2.0,NMP,100.0,4
+(E)-4-phenylbut-3-en-2-one,3.0,3.0,DMA,100.0,2
+(E)-4-phenylbut-3-en-2-one,5.0,2.0,DMA,50.0,2
+(E)-4-phenylbut-3-en-2-one,3.0,1.0,NMP,100.0,1
+(E)-4-phenylbut-3-en-2-one,3.0,1.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,1.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,5.0,NMP,100.0,3
+(E)-4-phenylbut-3-en-2-one,1.0,5.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,5.0,DMA,100.0,3
+(E)-4-phenylbut-3-en-2-one,1.0,1.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,3.0,DMA,100.0,2
+(E)-4-phenylbut-3-en-2-one,1.0,2.0,NMP,100.0,1
+(E)-4-phenylbut-3-en-2-one,1.0,2.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,1.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,1.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,2.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,2.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,3.0,DMA,50.0,3
+(E)-4-phenylbut-3-en-2-one,1.0,3.0,NMP,100.0,1
+(E)-4-phenylbut-3-en-2-one,3.0,5.0,DMA,100.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,3.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,2.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,2.0,DMA,100.0,3
+(E)-4-phenylbut-3-en-2-one,3.0,3.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,5.0,DMA,50.0,3
+(E)-4-phenylbut-3-en-2-one,3.0,5.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,2.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,5.0,DMA,50.0,0
+(E)-4-phenylbut-3-en-2-one,3.0,3.0,NMP,100.0,2
+(E)-4-phenylbut-3-en-2-one,1.0,5.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,5.0,3.0,NMP,50.0,1
+(E)-4-phenylbut-3-en-2-one,5.0,1.0,NMP,100.0,2
+(E)-4-phenylbut-3-en-2-one,5.0,1.0,NMP,50.0,0
+(E)-4-phenylbut-3-en-2-one,1.0,5.0,NMP,100.0,1
+(E)-4-phenylbut-3-en-2-one,3.0,1.0,DMA,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,1.0,DMA,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,3.0,DMA,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,3.0,NMP,100.0,8
+3-pyrazol-1-ylcyclopentan-1-one,3.0,5.0,NMP,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,3.0,5.0,NMP,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,2.0,DMA,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,3.0,1.0,NMP,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,1.0,3.0,NMP,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,1.0,NMP,100.0,1
+3-pyrazol-1-ylcyclopentan-1-one,3.0,3.0,DMA,50.0,2
+3-pyrazol-1-ylcyclopentan-1-one,3.0,2.0,DMA,100.0,1
+3-pyrazol-1-ylcyclopentan-1-one,3.0,2.0,NMP,100.0,3
+3-pyrazol-1-ylcyclopentan-1-one,5.0,5.0,NMP,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,5.0,2.0,NMP,100.0,5
+3-pyrazol-1-ylcyclopentan-1-one,3.0,3.0,DMA,100.0,2
+3-pyrazol-1-ylcyclopentan-1-one,5.0,2.0,DMA,50.0,3
+3-pyrazol-1-ylcyclopentan-1-one,3.0,1.0,NMP,100.0,2
+3-pyrazol-1-ylcyclopentan-1-one,3.0,1.0,DMA,100.0,1
+3-pyrazol-1-ylcyclopentan-1-one,5.0,1.0,DMA,50.0,2
+3-pyrazol-1-ylcyclopentan-1-one,5.0,5.0,NMP,100.0,5
+3-pyrazol-1-ylcyclopentan-1-one,1.0,5.0,DMA,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,5.0,DMA,100.0,2
+3-pyrazol-1-ylcyclopentan-1-one,1.0,1.0,NMP,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,3.0,DMA,100.0,4
+3-pyrazol-1-ylcyclopentan-1-one,1.0,2.0,NMP,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,2.0,DMA,100.0,1
+3-pyrazol-1-ylcyclopentan-1-one,1.0,1.0,DMA,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,1.0,DMA,100.0,2
+3-pyrazol-1-ylcyclopentan-1-one,3.0,2.0,NMP,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,1.0,2.0,NMP,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,3.0,DMA,50.0,5
+3-pyrazol-1-ylcyclopentan-1-one,1.0,3.0,NMP,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,3.0,5.0,DMA,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,1.0,3.0,DMA,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,5.0,2.0,NMP,50.0,2
+3-pyrazol-1-ylcyclopentan-1-one,5.0,2.0,DMA,100.0,3
+3-pyrazol-1-ylcyclopentan-1-one,3.0,3.0,NMP,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,5.0,5.0,DMA,50.0,3
+3-pyrazol-1-ylcyclopentan-1-one,3.0,5.0,DMA,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,3.0,2.0,DMA,50.0,2
+3-pyrazol-1-ylcyclopentan-1-one,1.0,5.0,DMA,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,3.0,3.0,NMP,100.0,4
+3-pyrazol-1-ylcyclopentan-1-one,1.0,5.0,NMP,50.0,0
+3-pyrazol-1-ylcyclopentan-1-one,5.0,3.0,NMP,50.0,3
+3-pyrazol-1-ylcyclopentan-1-one,5.0,1.0,NMP,100.0,4
+3-pyrazol-1-ylcyclopentan-1-one,5.0,1.0,NMP,50.0,1
+3-pyrazol-1-ylcyclopentan-1-one,1.0,5.0,NMP,100.0,0
+3-pyrazol-1-ylcyclopentan-1-one,3.0,1.0,DMA,50.0,2
+cyclopentanone,1.0,1.0,DMA,50.0,0
+cyclopentanone,1.0,3.0,DMA,100.0,0
+cyclopentanone,5.0,3.0,NMP,100.0,18
+cyclopentanone,3.0,5.0,NMP,100.0,3
+cyclopentanone,3.0,5.0,NMP,50.0,2
+cyclopentanone,1.0,2.0,DMA,50.0,0
+cyclopentanone,3.0,1.0,NMP,50.0,5
+cyclopentanone,1.0,3.0,NMP,50.0,0
+cyclopentanone,1.0,1.0,NMP,100.0,2
+cyclopentanone,3.0,3.0,DMA,50.0,4
+cyclopentanone,3.0,2.0,DMA,100.0,3
+cyclopentanone,3.0,2.0,NMP,100.0,11
+cyclopentanone,5.0,5.0,NMP,50.0,9
+cyclopentanone,5.0,2.0,NMP,100.0,21
+cyclopentanone,3.0,3.0,DMA,100.0,2
+cyclopentanone,5.0,2.0,DMA,50.0,10
+cyclopentanone,3.0,1.0,NMP,100.0,12
+cyclopentanone,3.0,1.0,DMA,100.0,2
+cyclopentanone,5.0,1.0,DMA,50.0,9
+cyclopentanone,5.0,5.0,NMP,100.0,17
+cyclopentanone,1.0,5.0,DMA,100.0,0
+cyclopentanone,5.0,5.0,DMA,100.0,4
+cyclopentanone,1.0,1.0,NMP,50.0,1
+cyclopentanone,5.0,3.0,DMA,100.0,6
+cyclopentanone,1.0,2.0,NMP,100.0,1
+cyclopentanone,1.0,2.0,DMA,100.0,0
+cyclopentanone,1.0,1.0,DMA,100.0,0
+cyclopentanone,5.0,1.0,DMA,100.0,2
+cyclopentanone,3.0,2.0,NMP,50.0,5
+cyclopentanone,1.0,2.0,NMP,50.0,0
+cyclopentanone,5.0,3.0,DMA,50.0,12
+cyclopentanone,1.0,3.0,NMP,100.0,1
+cyclopentanone,3.0,5.0,DMA,100.0,1
+cyclopentanone,1.0,3.0,DMA,50.0,0
+cyclopentanone,5.0,2.0,NMP,50.0,10
+cyclopentanone,5.0,2.0,DMA,100.0,4
+cyclopentanone,3.0,3.0,NMP,50.0,5
+cyclopentanone,5.0,5.0,DMA,50.0,10
+cyclopentanone,3.0,5.0,DMA,50.0,1
+cyclopentanone,3.0,2.0,DMA,50.0,5
+cyclopentanone,1.0,5.0,DMA,50.0,0
+cyclopentanone,3.0,3.0,NMP,100.0,7
+cyclopentanone,1.0,5.0,NMP,50.0,1
+cyclopentanone,5.0,3.0,NMP,50.0,11
+cyclopentanone,5.0,1.0,NMP,100.0,20
+cyclopentanone,5.0,1.0,NMP,50.0,8
+cyclopentanone,1.0,5.0,NMP,100.0,2
+cyclopentanone,3.0,1.0,DMA,50.0,4
+2-(3-oxocyclopentyl)acetonitrile,1.0,1.0,DMA,50.0,0
+2-(3-oxocyclopentyl)acetonitrile,1.0,3.0,DMA,100.0,1
+2-(3-oxocyclopentyl)acetonitrile,5.0,3.0,NMP,100.0,31
+2-(3-oxocyclopentyl)acetonitrile,3.0,5.0,NMP,100.0,4
+2-(3-oxocyclopentyl)acetonitrile,3.0,5.0,NMP,50.0,1
+2-(3-oxocyclopentyl)acetonitrile,1.0,2.0,DMA,50.0,0
+2-(3-oxocyclopentyl)acetonitrile,3.0,1.0,NMP,50.0,4
+2-(3-oxocyclopentyl)acetonitrile,1.0,3.0,NMP,50.0,1
+2-(3-oxocyclopentyl)acetonitrile,1.0,1.0,NMP,100.0,5
+2-(3-oxocyclopentyl)acetonitrile,3.0,3.0,DMA,50.0,7
+2-(3-oxocyclopentyl)acetonitrile,3.0,2.0,DMA,100.0,13
+2-(3-oxocyclopentyl)acetonitrile,3.0,2.0,NMP,100.0,19
+2-(3-oxocyclopentyl)acetonitrile,5.0,5.0,NMP,50.0,7
+2-(3-oxocyclopentyl)acetonitrile,5.0,2.0,NMP,100.0,35
+2-(3-oxocyclopentyl)acetonitrile,3.0,3.0,DMA,100.0,11
+2-(3-oxocyclopentyl)acetonitrile,5.0,2.0,DMA,50.0,19
+2-(3-oxocyclopentyl)acetonitrile,3.0,1.0,NMP,100.0,19
+2-(3-oxocyclopentyl)acetonitrile,3.0,1.0,DMA,100.0,9
+2-(3-oxocyclopentyl)acetonitrile,5.0,1.0,DMA,50.0,14
+2-(3-oxocyclopentyl)acetonitrile,5.0,5.0,NMP,100.0,24
+2-(3-oxocyclopentyl)acetonitrile,1.0,5.0,DMA,100.0,1
+2-(3-oxocyclopentyl)acetonitrile,5.0,5.0,DMA,100.0,13
+2-(3-oxocyclopentyl)acetonitrile,1.0,1.0,NMP,50.0,1
+2-(3-oxocyclopentyl)acetonitrile,5.0,3.0,DMA,100.0,32
+2-(3-oxocyclopentyl)acetonitrile,1.0,2.0,NMP,100.0,3
+2-(3-oxocyclopentyl)acetonitrile,1.0,2.0,DMA,100.0,3
+2-(3-oxocyclopentyl)acetonitrile,1.0,1.0,DMA,100.0,2
+2-(3-oxocyclopentyl)acetonitrile,5.0,1.0,DMA,100.0,10
+2-(3-oxocyclopentyl)acetonitrile,3.0,2.0,NMP,50.0,5
+2-(3-oxocyclopentyl)acetonitrile,1.0,2.0,NMP,50.0,1
+2-(3-oxocyclopentyl)acetonitrile,5.0,3.0,DMA,50.0,23
+2-(3-oxocyclopentyl)acetonitrile,1.0,3.0,NMP,100.0,2
+2-(3-oxocyclopentyl)acetonitrile,3.0,5.0,DMA,100.0,2
+2-(3-oxocyclopentyl)acetonitrile,1.0,3.0,DMA,50.0,0
+2-(3-oxocyclopentyl)acetonitrile,5.0,2.0,NMP,50.0,10
+2-(3-oxocyclopentyl)acetonitrile,5.0,2.0,DMA,100.0,29
+2-(3-oxocyclopentyl)acetonitrile,3.0,3.0,NMP,50.0,5
+2-(3-oxocyclopentyl)acetonitrile,5.0,5.0,DMA,50.0,10
+2-(3-oxocyclopentyl)acetonitrile,3.0,5.0,DMA,50.0,2
+2-(3-oxocyclopentyl)acetonitrile,3.0,2.0,DMA,50.0,9
+2-(3-oxocyclopentyl)acetonitrile,1.0,5.0,DMA,50.0,2
+2-(3-oxocyclopentyl)acetonitrile,3.0,3.0,NMP,100.0,16
+2-(3-oxocyclopentyl)acetonitrile,1.0,5.0,NMP,50.0,2
+2-(3-oxocyclopentyl)acetonitrile,5.0,3.0,NMP,50.0,12
+2-(3-oxocyclopentyl)acetonitrile,5.0,1.0,NMP,100.0,29
+2-(3-oxocyclopentyl)acetonitrile,5.0,1.0,NMP,50.0,7
+2-(3-oxocyclopentyl)acetonitrile,1.0,5.0,NMP,100.0,4
+2-(3-oxocyclopentyl)acetonitrile,3.0,1.0,DMA,50.0,8
