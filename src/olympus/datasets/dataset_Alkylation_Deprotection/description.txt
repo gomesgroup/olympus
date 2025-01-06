@@ -1,0 +1,41 @@
+Nanomole-Scale N-Alkylation/Deprotection Library Synthesis.
+
+Reaction Setup:
+
+Two cores were tested in nanoscale alkylation-deprotection (0.4 M stock solutions in DMF)
+
+Twelve alkyl, allylic, and benzylic halides used in this study.
+
+Four unique alkylation conditions were screened.
+One Boc deprotection condition (20 equiv. H2SO4 in diglyme) was used.
+
+and nanoliter pipetting was done under an N2 atmosphere in a glove box. Stock solutions of the cores (0.4
+M in DMF), electrophile building blocks (1 M in DMF), and bases (1.6 M in DMF), and deprotection acid (H2SO4 in diglyme,
+2 M) were prepared in the glove box. A source plate was constructed using the reagent stock solutions by pipetting 16-60 µL of the correct component stock into the wells. The SPT Labtech
+Mosquito® was used to assemble the reaction mixtures, utilizing the multi-aspiration feature and dispense mixing.
+
+The next morning, the reactions were quenched by addition of saturated aqueous NaHCO3 (2 µL) and diluted with water
+(1 µL) and DMSO (2 µL). The reactions were further diluted to 10 mM using DMSO and liquid handling. 1 µL of the quenched
+and diluted crude reactions were drawn up for analysis by LC-MS (1 µL crude ~10 mM reaction into 60 µL DMSO followed
+by shaking). Screening results are represented as a heat map of percent yield, where values were calculated using standard
+curves created from isolated products. 
+
+NOTE: elevated yields (above 100% as determined by standard curves) shown for some reactions in may be due to inaccuracies in liquid handling, causing more of the core and reagents to be charged into the reaction drop than expected.
+
+Dataset source:
+Miniturization of popular reactions from medicial chemists' toolbox for ultrahigh-throughput experimentation
+DOI: https://doi.org/10.1038/s44160-023-00351-1
+
+
+=================================================================
+                Summary
+-----------------------------------------------------------------
+    Number of Samples               96
+    Dimensionality                  3
+    Features:
+        electrophile                categorical (12 options)
+        cores                       categorical (2 options)
+        base                        categorical (4 options)
+    Targets:
+        yield                       continuous (0 to 100)
+==================================================================
