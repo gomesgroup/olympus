@@ -1,0 +1,36 @@
+Reductive amination of staurosporine.
+
+Reaction Setup:
+
+SPT Labtech Mosquito®HTS liquid handling robot was used to generate a reaction plate containing all possible reaction
+conditions per aldehyde building block. 2 solvents x 2 concentrations x 3 AcOH loadings x 4 TTIP loadings = 48 reaction
+conditions per aldehyde building block. 
+48 reaction conditions x 16 building blocks = 768 reactions. 
+
+The reactions were mixed (core, aldehyde/ketone, acetic acid, titanium tetraisopropoxide) 
+and allowed to sit for 4 hours before addition of STAB to the reaction mixtures. 
+After 18 hours, reactions were quenched and examined. 3x1 µL 0.5 M AcOH in DMSO
+(containing PhPh internal standard) quench solution was added to each reaction well. 
+1 µL of each quenched reaction (4 µL total volume) was transferred from the 1,536 plate 
+reaction well to a 384-well analytical plate containing 60 µL DMSO per well. 
+Results of this screen are presented in Figure 3 as a heat map arrayed by reaction conditions after quenching.
+Reactions are represented by relative percent conversion, calculated from UV peak area of product and staurosporine core.
+
+Dataset source:
+Miniturization of popular reactions from medicial chemists' toolbox for ultrahigh-throughput experimentation
+DOI: https://doi.org/10.1038/s44160-023-00351-1
+
+=================================================================
+                Summary
+-----------------------------------------------------------------
+    Number of Samples             768
+    Dimensionality                  5
+    Features:
+        substrate                   categorical (16 options)
+        AcOH_equiv                  discrete (3 options)
+        TTIP_equiv                  discrete (4 options)
+        solvent                     categorical (2 options)
+        reaction_concentration_mM   discrete (2 options)
+    Targets:
+        conversion                  continuous (0 to 100)
+==================================================================

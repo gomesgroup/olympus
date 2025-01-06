@@ -1,0 +1,27 @@
+Suzuki Cross-Coupling Informer Library.
+
+Reaction Setup:
+
+SPT Labtech Mosquito® HTS liquid handling robot used to generate reaction plate containing the 12 reaction conditions
+described above per aryl halide core/boronic acid building block combination. 12 reaction conditions were tested to
+produce a maximum of 120 possible products, 12 cores  10 boronate building blocks. 12 cores x 10 boronate building
+blocks x 12 conditions = 1,440 reaction screen. 
+Results of this screen are presented in Figure 2 as a heatmap arrayed by reaction conditions. 
+Reactions are represented by product peak area versus internal standard (PhPh) peak area ratio.
+
+Dataset source:
+Miniturization of popular reactions from medicial chemists' toolbox for ultrahigh-throughput experimentation
+DOI: https://doi.org/10.1038/s44160-023-00351-1
+
+===========================================================
+                Summary
+-----------------------------------------------------------
+    Number of Samples             960
+    Dimensionality                  3
+    Features:
+        halide                    categorical (8 options)
+        boronate                  categorical (10 options)
+        conditions                categorical (12 options)
+    Targets:
+        conversion                continuous (0 to 100)
+===========================================================

@@ -1,0 +1,27 @@
+Palladium-catalyzed Buchwald-Hartwig reactions. 
+
+Reaction Setup:
+
+Solutions were prepared in DMSO: catalyst (0.05 M), aryl halide (0.5 M), toluidine (0.5 M), additive (0.5 M), and base (0.75 M).
+These solutions were added to a 384-well source plate (80 μL per well). The Mosquito HTS liquid handling robot was used to dose each
+of these solutions (200 nL each) into a 1536-well plate. The plate was sealed and heated to 60 °C for 16 hours. The plate was then
+opened and the Mosquito was used to add internal standard to each well (3 μL of 0.0025 M di-tert-butylbiphenyl solution in DMSO).
+At that point, aliquots were sampled into 384-well plates and analyzed by UPLC which was used to quantify product yield.
+
+Dataset source:
+Predicting reaction performance in C–N cross-coupling using machine learning
+DOI: https://doi.org/10.1126/science.aar5169
+
+=========================================
+                Summary
+-----------------------------------------
+    Number of Samples             4600
+    Dimensionality                   4
+    Features:
+        aryl_halide     categorical (16 options)
+        additive        categorical (22 options)
+        base            categorical (3 options)
+        ligand          categorical (4 options)
+    Targets:
+        yield              continuous
+=========================================

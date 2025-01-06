@@ -1,0 +1,69 @@
+{
+    "parameters": [
+        {
+            "name": "halide",
+            "type": "categorical",
+            "options": [
+                "tert-butyl (1R)-1-(2-acetamidopropan-2-yl)-5-chloro-6-methylspiro[1,2-dihydroindene-3,4'-piperidine]-1'-carboxylate",
+                "tert-butyl N-[(4S)-4-(3-chlorothiophen-2-yl)-1,4-dimethyl-6-oxo-5H-pyrimidin-2-yl]carbamate",
+                "ethyl 4-(6-bromo-13-chloro-4-azatricyclo[9.4.0.03,8]pentadeca-1(11),3(8),4,6,12,14-hexaen-2-ylidene)piperidine-1-carboxylate",
+                "2-bromo-5-phenylpyridine",
+                "1-O-benzyl 2-O-methyl (2S,4R)-4-(4-bromo-1,3-dihydroisoindole-2-carbonyl)oxypyrrolidine-1,2-dicarboxylate",
+                "7-[(3-bromo-4-methoxyphenyl)methyl]-1-ethyl-8-[[(1R,2R)-2-hydroxycyclopentyl]amino]-3-(2-hydroxyethyl)purine-2,6-dione",
+                "tert-butyl N-[(4S)-4-(4-bromothiophen-2-yl)-1,4-dimethyl-6-oxo-5H-pyrimidin-2-yl]carbamate",
+                "5-bromo-N-[(4-fluorophenyl)methyl]-8-hydroxy-1,6-naphthyridine-7-carboxamide"
+            ],
+            "descriptors": []
+        },
+        {
+            "name": "boronate",
+            "type": "categorical",
+            "options": [
+                "N,N-dimethyl-4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)aniline",
+                "3-methyl-4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)phenol",
+                "[4-(cyclopentylcarbamoyl)phenyl]boronic acid",
+                "benzyl N-[1-[3-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)phenyl]cyclopropyl]carbamate",
+                "2-[4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)phenyl]pyrazine",
+                "pyridin-3-ylboronic acid",
+                "2-pyrazol-1-yl-5-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyrimidine",
+                "1-benzyl-4-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyrazole",
+                "1-(benzenesulfonyl)-3-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyrrolo[2,3-b]pyridine",
+                "2-(cyclohexen-1-yl)-4,4,5,5-tetramethyl-1,3,2-dioxaborolane"
+            ],
+            "descriptors": []
+        },
+        {
+            "name": "conditions",
+            "type": "categorical",
+            "options": [
+                "Catalyst: Xphos G3 Base: K3PO4 Solvent: DMSO Cosolvent: H2O (25%)",
+                "Catalyst: tBuXphos G3 Base: BTMG Solvent: DMSO Cosolvent: None",
+                "Catalyst: RuPhos G3 Base: BTMG Solvent: DMSO Cosolvent: H2O (25%)",
+                "Catalyst: tBu3P G2 Base: BTMG Solvent: DMSO Cosolvent: t-AmOH (25%)",
+                "Catalyst: tBu3P G2 Base: BTTP Solvent: DMSO Cosolvent: t-AmOH (25%)",
+                "Catalyst: Aphos G3 Base: BTMG Solvent: DMSO Cosolvent: t-AmOH (25%)",
+                "Catalyst: RuPhos G3 Base: K3PO4 Solvent: DMSO Cosolvent: H2O (25%)",
+                "Catalyst: Aphos G3 Base: BTMG Solvent: DMSO Cosolvent: None",
+                "Catalyst: Xphos G3 Base: BTMG Solvent: DMSO Cosolvent: H2O (25%)",
+                "Catalyst: Aphos G3 Base: BTTP Solvent: DMSO Cosolvent: t-AmOH (25%)",
+                "Catalyst: tBuXphos G3 Base: P2-Et Solvent: DMSO Cosolvent: None",
+                "Catalyst: Aphos G3 Base: P2-Et Solvent: DMSO Cosolvent: None"
+            ],
+            "descriptors": []
+        }
+    ],
+    "constraints": {
+        "parameters": "none",
+        "measurements": "none",
+        "known": "no"
+    },
+    "measurements": [
+        {
+            "name": "conversion",
+            "type": "continuous",
+            "low": 0,
+            "high": 100
+        }
+    ],
+    "default_goal": "maximize"
+}
