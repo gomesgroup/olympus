@@ -59,6 +59,7 @@ setup(
     # license='XXX',
     packages=find_packages(where="src", include=["olympus*"]),
     package_dir={"": "src"},
+    include_package_data=True,
     zip_safe=False,
     tests_require=["pytest"],
     install_requires=["numpy", "pandas", "scikit-learn",
