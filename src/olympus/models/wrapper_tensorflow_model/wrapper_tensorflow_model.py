@@ -296,8 +296,9 @@ class WrapperTensorflowModel(AbstractModel):
                 try:
                     self.saver.restore(self.sess, model_path + "/model.ckpt")
                     return True
-                # TODO: I get the error 'tf has no attribute python' here
-                except tf.python.framework.errors_impl.InvalidArgumentError:
+                # Handle error without relying on tf.python attribute
+                except (tf.errors.InvalidArgumentError, tf.errors.NotFoundError, Exception) as e:
+                    Logger.log(f"Error restoring model: {str(e)}", "WARNING")
                     return False
 
     def predict(self, features, num_samples=1):

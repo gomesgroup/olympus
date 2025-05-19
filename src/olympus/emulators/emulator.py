@@ -852,13 +852,20 @@ def load_emulator(emulator_folder):
             features_dim=emulator_to_load.dataset.features_dim_ohe,
             targets_dim=targets_dim,
         )
-        restored = emulator_to_load.model.restore(f"{emulator_folder}/Model")
-        if restored is False:
-            message = "failed to restore model"
-            Logger.log(message, "ERROR")
-
-
+        
+        try:
+            restored = emulator_to_load.model.restore(f"{emulator_folder}/Model")
+            if restored is False:
+                message = "Attempted to restore model but got an error. Will proceed with an untrained model."
+                Logger.log(message, "WARNING")
+                # We'll still return the emulator but mark it as untrained
+                emulator_to_load.is_trained = False
+        except Exception as e:
+            message = f"Error loading emulator from {emulator_folder}: {str(e)}"
+            Logger.log(message, "WARNING")
+            # We'll still return the emulator but mark it as untrained
+            emulator_to_load.is_trained = False
 
     # NOTE: we are not leading any cross validation models for the moment. If CV was performed though, we still have
-    # the data about the CV performance
+    # the data about the CV performance 
     return emulator_to_load
