@@ -10,7 +10,7 @@
 			{"name": "temperature", "type": "continuous", "low": 100.0, "high": 150.0}
 		],
 	"measurements": [
-		{"name": "product","goal": "maximize", "type": "continuous"}
+		{"name": "product_mol_fraction","goal": "maximize", "type": "continuous"}
 	],
     "default_goal": "maximize"
 }
