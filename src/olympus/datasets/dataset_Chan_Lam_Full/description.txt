@@ -197,3 +197,19 @@ input {
 }
 is_automated: false
 ]
+
+=================================================================
+                Summary
+-----------------------------------------------------------------
+    Number of Samples               5684
+    Dimensionality                  5
+    Features:
+        boronic_acid_reactant                categorical (2 options)
+        sulfonamide_reactant                categorical (10 options)
+        catalyst_catalyst                        categorical (4 options)
+        base_reagent                        categorical (6 options)
+        solvent                        categorical (4 options)
+    Targets:
+        desired_yield                       continuous (0 to 100)
+        undesired_yield                     continuous (0 to 100)
+==================================================================
