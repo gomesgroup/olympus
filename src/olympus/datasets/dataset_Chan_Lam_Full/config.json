@@ -77,5 +77,5 @@
             "type": "continuous"
         }
     ],
-    "default_goal": "maximize,minimize"
+    "default_goal": ["maximize", "minimize"]
 }
