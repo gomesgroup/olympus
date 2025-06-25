@@ -628,16 +628,16 @@ class Dataset:
             desc = [None for _ in param["options"]]
         else:
             # we have some descritptors
-            desc = []
-            assert not type(self.descriptors) == type(None)
-            param_desc = self.descriptors[
-                self.descriptors["param"] == param["name"]
-            ]
-            for option in param["options"]:
-                d = param_desc[param_desc["option"] == option][
-                    "value"
-                ].tolist()
-                desc.append(d)
+            desc = param["descriptors"]
+            # assert not type(self.descriptors) == type(None)
+            # param_desc = self.descriptors[
+            #     self.descriptors["param"] == param["name"]
+            # ]
+            # for option in param["options"]:
+            #     d = param_desc[param_desc["option"] == option][
+            #         "value"
+            #     ].tolist()
+            #     desc.append(d)
         return desc
 
     def _create_param_space(self, config):
