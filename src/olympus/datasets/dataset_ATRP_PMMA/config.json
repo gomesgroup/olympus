@@ -1,0 +1,70 @@
+{
+	"constraints": {
+		"parameters":   "none",
+		"measurements": "none",
+		"known": "no"
+	},
+	"parameters": [
+		{
+			"name": "CuBr2_ppm",
+			"type": "continuous",
+			"low": 1.0,
+			"high": 50.0,
+			"descriptors": []
+		},
+		{
+			"name": "TPMA_ppm", 
+			"type": "continuous",
+			"low": 3.0,
+			"high": 200.0,
+			"descriptors": []
+		},
+		{
+			"name": "RD6G_ppm",
+			"type": "continuous", 
+			"low": 0.1,
+			"high": 25.0,
+			"descriptors": []
+		},
+		{
+			"name": "Monomer_Conc",
+			"type": "categorical",
+			"options": [3.13, 4.7, 6.27],
+			"descriptors": []
+		},
+		{
+			"name": "NaBr_ppm",
+			"type": "continuous",
+			"low": 0.0,
+			"high": 50.0,
+			"descriptors": []
+		},
+		{
+			"name": "TBABr_ppm", 
+			"type": "continuous",
+			"low": 0.0,
+			"high": 50.0,
+			"descriptors": []
+		},
+		{
+			"name": "DP",
+			"type": "continuous",
+			"low": 100.0,
+			"high": 1000.0,
+			"descriptors": []
+		},
+		{
+			"name": "Solvent",
+			"type": "categorical",
+			"options": ["DMF", "DMSO", "DMSO_ACN"],
+			"descriptors": []
+		}
+	],
+	"measurements": [
+		{"name": "Conversion_pct", "type": "continuous"},
+		{"name": "Dispersity", "type": "continuous"},  
+		{"name": "Initiation_Eff", "type": "continuous"},
+		{"name": "CuBr2_ppm_target", "type": "continuous"}
+	],
+	"default_goal": "maximize"
+}

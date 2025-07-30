@@ -1,0 +1,45 @@
+Green Photo-ATRP polymerization optimization dataset for 
+sustainable PMMA synthesis with minimal copper usage. 
+This dataset focuses on achieving excellent polymerization 
+performance (high conversion, controlled dispersity, good 
+initiation efficiency) while minimizing copper catalyst 
+concentration to 1 ppm for environmentally friendly synthesis.
+
+PRIMARY OBJECTIVE: Minimize Cu concentration (target: 1 ppm)
+SECONDARY OBJECTIVES: Maximize conversion, optimize dispersity & efficiency
+
+The dataset contains experimental data for atom transfer 
+radical polymerization (ATRP) of methyl methacrylate (MMA) 
+using photocatalyst systems optimized for low-copper conditions.
+
+=========================================
+                Summary
+-----------------------------------------
+    Number of Samples              60
+    Dimensionality                  8
+    
+    OPTIMIZATION GOALS:
+    🎯 PRIMARY: Minimize CuBr2_ppm (target: 1 ppm)
+    🎯 SECONDARY: Maximize Conversion_pct
+    🎯 TERTIARY: Optimize Dispersity (→ 1.0)
+    🎯 QUATERNARY: Maximize Initiation_Eff
+    
+    Features:
+        CuBr2_ppm       discrete (1.0-50.0 ppm) [MINIMIZE]
+        TPMA_ppm        discrete (3.0-200.0 ppm)  
+        RD6G_ppm        discrete (0.1-25.0 ppm)
+        Monomer_Conc    categorical (3.13, 4.7, 6.27 M)
+        NaBr_ppm        continuous (0.0-50.0 ppm)
+        TBABr_ppm       continuous (0.0-50.0 ppm)
+        DP              continuous (100-1000)
+        Solvent         categorical (DMF, DMSO, DMSO_ACN)
+        
+    Targets:
+        CuBr2_ppm         continuous (MINIMIZE to 1 ppm)
+        Conversion_pct    continuous (MAXIMIZE 36-96%)
+        Dispersity        continuous (OPTIMIZE to ~1.0)
+        Initiation_Eff    continuous (MAXIMIZE 0.28-1.73)
+        
+    Constraints:
+        CuBr2_ppm <= 1.0 ppm (green chemistry target)
+=========================================
