@@ -62,9 +62,14 @@
 	],
 	"measurements": [
 		{"name": "Conversion_pct", "type": "continuous"},
-		{"name": "Dispersity", "type": "continuous"},  
-		{"name": "Initiation_Eff", "type": "continuous"},
+		{"name": "Dispersity_Absolute_Difference_From_1", "type": "continuous"},  
+		{"name": "Initiation_Eff_Absolute_Difference_From_1", "type": "continuous"},
 		{"name": "CuBr2_ppm_target", "type": "continuous"}
 	],
-	"default_goal": "maximize"
+	"default_goal": [
+		"maximize",
+		"minimize",
+		"minimize",
+		"minimize"
+	]
 }
