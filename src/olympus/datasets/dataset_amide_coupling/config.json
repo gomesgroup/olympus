@@ -1,0 +1,201 @@
+{
+    "parameters": [
+        {
+            "name": "amine",
+            "type": "categorical",
+            "options": [
+                "4-heptylaniline",
+                "1,3-diaminopropane",
+                "octan-1-amine",
+                "2-fluoroaniline"
+            ],
+            "description": "Amine nucleophile for amide bond formation",
+            "notes": {
+                "CCCCCCCC1=CC=C(C=C1)N": "4-heptylaniline - aromatic amine with long alkyl chain",
+                "NCCCN": "1,3-diaminopropane - bifunctional amine, potential for crosslinking",
+                "CCCCCCCCN": "octan-1-amine - simple aliphatic primary amine",
+                "NC1=CC=CC=C1F": "2-fluoroaniline - electron-withdrawing fluorine affects reactivity"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "coupling_reagent",
+            "type": "categorical",
+            "options": [
+                "EDC",
+                "HATU",
+                "HBTU",
+                "PyBOP",
+                "DCC"
+            ],
+            "description": "Primary reagent for amide bond formation",
+            "notes": {
+                "CCN=C=NCCCN(C)C": "EDC - safest option, water-soluble byproducts, mild conditions",
+                "CN(C)C(=[N+](C)C)N1C2=C(N=CC=C2)[N+](=N1)[O-].F[P-](F)(F)(F)(F)F": "HATU - highly efficient, minimal racemization, expensive",
+                "CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1.F[P-](F)(F)(F)(F)F": "HBTU - reliable, well-established",
+                "C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)ON4C5=CC=CC=C5N=N4.F[P-](F)(F)(F)(F)F": "PyBOP - efficient, low racemization",
+                "C1CCC(CC1)N=C=NC2CCCCC2": "DCC - cost-effective, allergen hazard, difficult byproduct removal"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "base_reagent",
+            "type": "categorical",
+            "options": [
+                "DIPEA",
+                "NMM",
+                "TEA",
+                "DMAP",
+                "NO_BASE"
+            ],
+            "description": "Base for neutralization and activation",
+            "notes": {
+                "CCN(C(C)C)C(C)C": "DIPEA - non-nucleophilic, standard for peptide synthesis",
+                "CN1CCOCC1": "NMM - moderate basicity",
+                "CCN(CC)CC": "Triethylamine - standard base, widely used",
+                "CN(C)C1=CC=NC=C1": "DMAP - highly nucleophilic acylation catalyst",
+                "NO_BASE": "No base - suitable for some EDC reactions"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "additive_reagent",
+            "type": "categorical",
+            "options": [
+                "HOBt",
+                "OxymaPure",
+                "NO_ADDITIVE"
+            ],
+            "description": "Additive to suppress racemization and improve coupling efficiency",
+            "notes": {
+                "C1=CC=C2C(=C1)N=NN2O": "HOBt - EXPLOSIVE HAZARD, use with extreme caution",
+                "CCOC(=O)C(=NO)C#N": "OxymaPure - safer HOBt alternative, green chemistry",
+                "NO_ADDITIVE": "No additive - suitable for some coupling reagent combinations"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "solvent",
+            "type": "categorical",
+            "options": [
+                "DMF",
+                "Acetonitrile",
+                "DMSO",
+                "THF"
+            ],
+            "description": "Primary solvent for amide coupling reaction",
+            "notes": {
+                "CN(C)C=O": "DMF - gold standard, excellent solvating properties, toxicity concerns",
+                "CC#N": "Acetonitrile - lower toxicity, HPLC compatible",
+                "CS(=O)C": "DMSO - excellent solvating properties",
+                "C1CCOC1": "THF - moderate polarity, good solvating properties"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "temperature",
+            "type": "categorical",
+            "options": [
+                "25°C",
+                "40°C"
+            ],
+            "description": "Reaction temperature in degrees Celsius",
+            "notes": {
+                "25°C": "Room temperature - standard for most couplings",
+                "40°C": "Elevated temperature - may improve difficult couplings"
+            },
+            "descriptors": null
+        },
+        {
+            "name": "coupling_reagent_equiv",
+            "type": "discrete",
+            "options": [
+                1.1,
+                1.2,
+                1.5
+            ],
+            "low": 1.1,
+            "high": 1.5,
+            "description": "Equivalents of coupling reagent relative to carboxylic acid"
+        },
+        {
+            "name": "amine_equiv",
+            "type": "discrete",
+            "options": [
+                1.0,
+                1.1,
+                1.2
+            ],
+            "low": 1.0,
+            "high": 1.2,
+            "description": "Equivalents of amine relative to carboxylic acid"
+        },
+        {
+            "name": "base_equiv",
+            "type": "discrete",
+            "options": [
+                0.0,
+                2.0,
+                2.5,
+                3.0
+            ],
+            "low": 0.0,
+            "high": 3.0,
+            "description": "Equivalents of base relative to carboxylic acid (0.0 for NO_BASE)"
+        },
+        {
+            "name": "additive_equiv",
+            "type": "discrete",
+            "options": [
+                0.0,
+                1.1,
+                1.2,
+                1.5
+            ],
+            "low": 0.0,
+            "high": 1.5,
+            "description": "Equivalents of additive relative to carboxylic acid (0.0 for NO_ADDITIVE)"
+        }
+    ],
+    "constraints": {
+        "parameters": "none",
+        "measurements": "positive",
+        "known": "no"
+    },
+    "measurements": [
+        {
+            "name": "relative_yield",
+            "type": "continuous",
+            "low": 0,
+            "high": 100,
+            "description": "Relative yield of amide product determined by LCMS with caffeine internal standard"
+        }
+    ],
+    "default_goal": "maximize",
+    "metadata": {
+        "carboxylic_acid": "NC1=NC=C(C(O)=O)N1",
+        "carboxylic_acid_name": "2-amino-1H-imidazole-5-carboxylic acid",
+        "internal_standard": "caffeine",
+        "analysis_method": "LCMS",
+        "created_by": "Amide Coupling Manual Experiment Setup Team",
+        "creation_date": "2024",
+        "purpose": "Manual amide coupling optimization for 4 specific amines with 2-amino-1H-imidazole-5-carboxylic acid",
+        "total_combinations": "Theoretical maximum: 4\u00d75\u00d75\u00d73\u00d74\u00d72\u00d73\u00d73\u00d74\u00d74 = 86,400 combinations",
+        "safety_notes": [
+            "HOBt is EXPLOSIVE - use OxymaPure when possible",
+            "DCC is a potent allergen - mandatory glove use",
+            "DMF has toxicity concerns - ensure proper ventilation",
+            "All reactions require fume hood operation"
+        ],
+        "experimental_constraints": {
+            "labware": [
+                "5 mL",
+                "10 mL",
+                "15 mL volumetric flasks"
+            ],
+            "scale_precision": "1 mg",
+            "preparation_method": "manual",
+            "analysis_method": "LCMS with caffeine internal standard"
+        }
+    }
+}

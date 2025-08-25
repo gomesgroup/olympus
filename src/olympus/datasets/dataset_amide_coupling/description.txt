@@ -1,0 +1,94 @@
+Amide Coupling Reactions with 2-amino-1H-imidazole-5-carboxylic acid
+
+Reaction Setup:
+
+This dataset encompasses amide coupling reactions between 2-amino-1H-imidazole-5-carboxylic acid 
+(SMILES: NC1=NC=C(C(O)=O)N1) and four selected amine nucleophiles:
+
+1. 4-heptylaniline (SMILES: CCCCCCCC1=CC=C(C=C1)N)
+2. 1,3-diaminopropane (SMILES: NCCCN) 
+3. octan-1-amine (SMILES: CCCCCCCCN)
+4. 2-fluoroaniline (SMILES: NC1=CC=CC=C1F)
+
+The experimental design explores a comprehensive parameter space including:
+- 5 coupling reagents (EDC, HATU, HBTU, PyBOP, DCC)
+- 5 base options (DIPEA, NMM, TEA, DMAP, NO_BASE)
+- 3 additive options (HOBt, OxymaPure, NO_ADDITIVE)
+- 4 solvents (DMF, acetonitrile, DMSO, THF)
+- 2 temperatures (25°C, 40°C)
+- Variable stoichiometry for all reagents
+
+Experimental Procedure:
+
+Reactions are prepared manually using 2 mL volumetric flasks with 1 mg precision weighing. 
+The carboxylic acid concentration is held constant at 0.1 M (25.42 mg, 0.0002 mol) across 
+all experiments, with other reagents added in stoichiometric excess as specified by the 
+equivalents parameters.
+
+CRITICAL: Different coupling reagents require different addition orders due to distinct 
+reaction mechanisms:
+
+For EDC/DCC (Carbodiimide Reagents):
+1. Dissolve carboxylic acid (25.42 mg) in solvent (2 mL)
+2. Add additive (HOBt/OxymaPure) and coupling reagent simultaneously
+3. Pre-activate for 10-15 minutes at specified temperature
+4. Add amine and base together
+5. React for 2-24 hours depending on conditions
+
+For HATU/HBTU/PyBOP (Uronium/Phosphonium Reagents):
+1. Dissolve carboxylic acid (25.42 mg) in solvent (2 mL)
+2. Add additive (if specified - optional for these reagents)
+3. Add coupling reagent and base simultaneously for activation
+4. Brief pre-activation for 2-5 minutes
+5. Add amine
+6. React for 30 minutes - 4 hours
+
+The different addition orders are critical for optimal results as carbodiimides require 
+pre-activation with additives, while uronium/phosphonium reagents require base for 
+activation and have built-in additive functionality.
+
+Analysis Method:
+
+Reaction mixtures are analyzed by LCMS using caffeine (5.0 mM, 1.942 mg per reaction) as 
+an internal standard. Relative yield is calculated from the peak area ratio of product to 
+internal standard, normalized against control reactions.
+
+Safety Considerations:
+
+CRITICAL SAFETY WARNINGS:
+- HOBt is EXPLOSIVE (UN3474 Class 4.1) - use OxymaPure when possible
+- DCC is a potent allergen - mandatory glove use and fume hood operation
+- DMF has toxicity concerns - ensure adequate ventilation
+- All reactions must be conducted in fume hoods with appropriate PPE
+
+Procedural Documentation:
+
+Three detailed experimental procedures are provided:
+1. EDC/DCC coupling procedure (carbodiimide-specific protocols)
+2. HATU/HBTU/PyBOP coupling procedure (uronium/phosphonium-specific protocols)
+3. Generic procedure (general guidance - refer to specific procedures for optimal results)
+
+Dataset Source:
+Manual experimental design for amide coupling optimization
+Created: 2024
+Purpose: Systematic exploration of amide coupling parameter space for drug discovery applications
+
+=================================================================
+                Summary
+-----------------------------------------------------------------
+    Number of Samples              345600
+    Dimensionality                 10
+    Features:
+        amine                      categorical (4 options)
+        coupling_reagent           categorical (5 options)
+        base_reagent              categorical (5 options)
+        additive_reagent          categorical (3 options)
+        solvent                   categorical (4 options)
+        temperature               categorical (2 options)
+        coupling_reagent_equiv    discrete (3 options)
+        amine_equiv               discrete (3 options)
+        base_equiv                discrete (4 options)
+        additive_equiv            discrete (4 options)
+    Targets:
+        relative_yield            continuous
+==================================================================
