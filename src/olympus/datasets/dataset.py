@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import json
+from pickle import NONE
 import os, sys
 from glob import glob
 
@@ -114,8 +115,9 @@ class Dataset:
                 csv_file = "".join(f"{datasets_path}/dataset_{kind}/scales.csv")
                 try:
                     self.scales = read_csv(csv_file, header=None, names=[f'scales_{i}' for i in range(len(self.value_space))]) #.to_numpy()
-                except FileNotFoundError:
-                    Logger.log(f"Could not find scales.csv for dataset {kind}, resorting to noiseless measurements", "WARNING")
+                except Exception as e:
+                    print(f'Could not find scales.csv for dataset {kind}')
+                    self.scales = None
 
             elif np.all(
                 [param["type"] in ["continuous"] for param in self.param_space]
@@ -710,8 +712,9 @@ def load_dataset(kind):
     csv_file = "".join(f"{datasets_path}/dataset_{kind}/data.csv")
     try:
         data = read_csv(csv_file, header=None).to_numpy()
-    except FileNotFoundError:
-        Logger.log(f"Could not find data.csv for dataset {kind}", "FATAL")
+    except Exception as e:
+        print(f'Could not find data.csv for dataset {kind}')
+        data = None
 
     # load descriptors
     csv_file = "".join(f"{datasets_path}/dataset_{kind}/descriptors.csv")
