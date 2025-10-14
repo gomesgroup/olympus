@@ -1,0 +1,400 @@
+Amide Coupling HTE Dataset: 3×3×72 Fully Mapped Subset
+
+Dataset Overview:
+
+This dataset represents a FULLY MAPPED subset extracted from a large-scale high-throughput 
+experimentation (HTE) campaign for amide coupling reactions. It contains 780 experiments 
+(with some replicates) covering all combinations of:
+- 3 structurally diverse amines
+- 3 structurally diverse carboxylic acids  
+- 72 curated reaction conditions
+
+This is a COMPLETE FACTORIAL design - every amine × acid × condition combination has been 
+tested, making it ideal for optimization algorithm benchmarking without the need for 
+surrogate modeling.
+
+Substrate Scope:
+
+Amines:
+1. CC(=O)c1ccc(N)cc1 (4-aminoacetophenone)
+   - Aromatic amine with electron-withdrawing acetyl group
+   - Reduced nucleophilicity due to conjugation
+   - Moderate reactivity across conditions
+
+2. Cc1ccc(CN)cc1 (4-methylbenzylamine)
+   - Benzylic primary amine with electron-donating methyl substituent
+   - Enhanced nucleophilicity
+   - Generally high-yielding substrate
+
+3. Cc1ccc2cccc(N)c2n1 (8-aminoquinoline derivative)
+   - Bicyclic aromatic amine with heteroatom
+   - Moderate steric hindrance
+   - Variable reactivity depending on conditions
+
+Carboxylic Acids:
+1. O=C(O)Cc1ccc2c(c1)OCO2 (benzodioxole acetic acid)
+   - Electron-rich aromatic with methylenedioxy protecting group
+   - Acetic acid derivative, readily activated
+   - Generally reactive across most coupling conditions
+
+2. O=C(O)COc1ccccc1 (phenoxyacetic acid)
+   - Simple phenoxy-substituted acetic acid
+   - Good leaving group potential
+   - Balanced reactivity profile
+
+3. O=C(O)Cc1ccc2c(c1)C(=O)c1ccccc1CO2 (anthraquinone derivative)
+   - Complex tricyclic structure with extended conjugation
+   - Bulky and potentially hindered
+   - Can be challenging substrate for some conditions
+
+Reaction Conditions:
+
+The 72 conditions represent carefully curated combinations from a larger space of:
+- 42 activation reagents (R1-R42): DCC, EDC, HATU, HBTU, PyBOP, TBTU, and others
+- 11 additives (A1-A11): HOBt, HOAt, Oxyma, and variants
+- 8 bases (B1-B8): DIPEA, TEA, NMM, DMAP, and others
+- 1 solvent (S1): DMF (dimethylformamide)
+
+Each condition is encoded as a string: "R##_A##_B##_S##"
+Examples: "R2_A5_B1_S1", "R25_A1_B7_S1", etc.
+
+These 72 conditions represent a strategically selected subset (~3% coverage) of the full 
+3,696 possible combinations (42×11×8×1), chosen based on chemical compatibility, literature 
+precedent, and preliminary screening results.
+
+NOTE: Conditions are pre-packaged combinations encoded as strings (e.g., "R25_A1_B7_S1"). 
+The encoding represents:
+  R## = Activation reagent (coupling agent)
+  A## = Additive  
+  B## = Base
+  S## = Solvent (always S1 = DMF in this subset)
+
+Due to the complexity of ionic salts and multi-component reagents in the original data, 
+conditions should be treated as opaque categorical identifiers rather than attempting to 
+independently decode each component. Users cannot independently vary individual components 
+(activation reagent, additive, base) within this dataset.
+
+
+
+==================================================================
+REAGENT COMPONENT MAPPINGS (from Open Reaction Database)
+==================================================================
+
+The 72 conditions use combinations of the following reagents.
+Each condition is encoded as "R##_A##_B##_S##" where:
+  R## = Activation/Coupling Reagent
+  A## = Additive (A1 = no additive)
+  B## = Base (B1 = no base)
+  S## = Solvent (always S1 = DMF)
+
+All reagent identities below are verified against the Open Reaction Database
+(Dataset ID: ord-47eaacc46c3a4487bbdf99adb1a15e41).
+
+------------------------------------------------------------------
+ACTIVATION/COUPLING REAGENTS (R##) - 35 used in this dataset
+------------------------------------------------------------------
+R2   - DIC
+       SMILES: CC(C)N=C=NC(C)C
+
+R4   - CDI
+       SMILES: C1=CN(C=N1)C(=O)N2C=CN=C2
+
+R6   - CDMT
+       SMILES: COC1=NC(=NC(=N1)Cl)OC
+
+R7   - 2,4-Dichloro-6-methoxy-1,3,5-triazine
+       SMILES: COC1=NC(=NC(=N1)Cl)Cl
+
+R8   - EDC-HCl
+       SMILES: CCN=C=NCCCN(C)C.Cl
+
+R9   - DCC
+       SMILES: C1CCC(CC1)N=C=NC2CCCCC2
+
+R11  - EEDQ
+       SMILES: CCOC1C=CC2=CC=CC=C2N1C(=O)OCC
+
+R12  - BOP-Cl
+       SMILES: C1COC(=O)N1P(=O)(N2CCOC2=O)Cl
+
+R13  - TFFH
+       SMILES: CN(C)C(=[N+](C)C)F.F[P-](F)(F)(F)(F)F
+
+R17  - TPTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C=CC=CC1=O
+
+R18  - DEPBT
+       SMILES: CCOP(=O)(OCC)ON1C(=O)C2=CC=CC=C2N=N1
+
+R19  - TSTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C(=O)CCC1=O
+
+R20  - IIDQ
+       SMILES: CC(C)COC1C=CC2=CC=CC=C2N1C(=O)OCC(C)C
+
+R21  - BTFFH
+       SMILES: C1CCN(C1)C(=[N+]2CCCC2)F.F[P-](F)(F)(F)(F)F
+
+R22  - TBTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1
+
+R23  - TOTU
+       SMILES: [B-](F)(F)(F)F.CCOC(=O)C(=NOC(=[N+](C)C)N(C)C)C#N
+
+R24  - PyCIU
+       SMILES: C1CCN(C1)C(=[N+]2CCCC2)Cl.F[P-](F)(F)(F)(F)F
+
+R25  - TDBTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C(=O)C2=CC=CC=C2N=N1
+
+R26  - TCTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C2=C(C=CC(=C2)Cl)N=N1
+
+R27  - TNTU
+       SMILES: [B-](F)(F)(F)F.CN(C)C(=[N+](C)C)ON1C(=O)C2C3CC(C2C1=O)C=C3
+
+R28  - HBTU
+       SMILES: CN(C)C(=[N+](C)C)ON1C2=CC=CC=C2N=N1.F[P-](F)(F)(F)(F)F
+
+R29  - HATU
+       SMILES: CN(C)C(=[N+](C)C)ON1C2=C(C=CC=N2)N=N1.F[P-](F)(F)(F)(F)F
+
+R30  - FDPP
+       SMILES: C1=CC=C(C=C1)P(=O)(C2=CC=CC=C2)OC3=C(C(=C(C(=C3F)F)F)F)F
+
+R31  - HCTU
+       SMILES: CN(C)C(=[N+](C)C)ON1C2=C(C=CC(=C2)Cl)N=N1.F[P-](F)(F)(F)(F)F
+
+R32  - PyCloP
+       SMILES: C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)Cl.F[P-](F)(F)(F)(F)F
+
+R33  - COMU
+       SMILES: CCOC(=O)C(=NOC(=[N+](C)C)N1CCOCC1)C#N.F[P-](F)(F)(F)(F)F
+
+R34  - HBPYU
+       SMILES: C1CCN(C1)C(=[N+]2CCCC2)ON3C4=CC=CC=C4N=N3.F[P-](F)(F)(F)(F)F
+
+R35  - BOP
+       SMILES: CN(C)[P+](N(C)C)(N(C)C)ON1C2=CC=CC=C2N=N1.F[P-](F)(F)(F)(F)F
+
+R36  - HDMC
+       SMILES: C[N+](=C(N1CCOCC1)N2C3=C(C=C(C=C3)Cl)[N+](=N2)[O-])C.F[P-](F)(F)(F)(F)F
+
+R37  - PyBrOP
+       SMILES: C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)Br.F[P-](F)(F)(F)(F)F
+
+R38  - PyBOP
+       SMILES: C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)ON4C5=CC=CC=C5N=N4.F[P-](F)(F)(F)(F)F
+
+R39  - PyAOP
+       SMILES: C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)ON4C5=C(C=CC=N5)N=N4.F[P-](F)(F)(F)(F)F
+
+R40  - PyOxim
+       SMILES: CCOC(=O)C(=NO[P+](N1CCCC1)(N2CCCC2)N3CCCC3)C#N.F[P-](F)(F)(F)(F)F
+
+R41  - CITU
+       SMILES: CN(C)C(=[N+](C)C)ON1C(=O)C2=C(C1=O)C(=C(C(=C2Cl)Cl)Cl)Cl.F[P-](F)(F)(F)(F)F
+
+R42  - PyClocK
+       SMILES: C1CCN(C1)[P+](N2CCCC2)(N3CCCC3)ON4C5=C(C=CC(=C5)Cl)N=N4.F[P-](F)(F)(F)(F)F
+
+
+------------------------------------------------------------------
+ADDITIVES (A##) - 10 used in this dataset
+------------------------------------------------------------------
+A1   - No additive
+       (Empty - some coupling reagents don't require additives)
+
+A2   - N-Hydroxysuccinimide
+       SMILES: C1CC(=O)N(C1=O)O
+
+A4   - HOBt
+       SMILES: C1=CC=C2C(=C1)N=NN2O
+
+A5   - HOAt
+       SMILES: C1=CC2=C(N=C1)N(N=N2)O
+
+A6   - Oxyma
+       SMILES: CCOC(=O)C(=NO)C#N
+
+A7   - N-Hydroxyphthalimide
+       SMILES: C1=CC=C2C(=C1)C(=O)N(C2=O)O
+
+A8   - 6-Cl-HOBT
+       SMILES: C1=CC2=C(C=C1Cl)N(N=N2)O
+
+A9   - Pentafluorophenol
+       SMILES: C1(=C(C(=C(C(=C1F)F)F)F)F)O
+
+A10  - Oxyma-B
+       SMILES: CN1C(=C(C(=O)N(C1=O)C)N=O)O
+
+A11  - 2,4,5-Trichlorophenol
+       SMILES: Oc1cc(Cl)c(Cl)cc1Cl
+
+
+------------------------------------------------------------------
+BASES (B##) - 7 used in this dataset
+------------------------------------------------------------------
+B1   - No base
+       (Empty - some coupling reagents generate base in situ)
+
+B3   - NMM
+       SMILES: CN1CCOCC1
+
+B4   - TEA
+       SMILES: CCN(CC)CC
+
+B5   - 2,6-Lutidine
+       SMILES: CC1=NC(=CC=C1)C
+
+B6   - DMAP
+       SMILES: CN(C)C1=CC=NC=C1
+
+B7   - DIPEA
+       SMILES: CCN(C(C)C)C(C)C
+
+B8   - DBU
+       SMILES: C1CCC2=NCCCN2CC1
+
+
+------------------------------------------------------------------
+SOLVENTS (S##)
+------------------------------------------------------------------
+S1   - DMF (N,N-Dimethylformamide)
+       SMILES: CN(C)C=O
+       All reactions in this dataset use DMF as the solvent.
+
+==================================================================
+
+Example Condition Decoded:
+  R8_A4_B7_S1 means:
+    R8  = EDC-HCl (1-Ethyl-3-(3-dimethylaminopropyl)carbodiimide hydrochloride)
+    A4  = HOBt (Hydroxybenzotriazole)
+    B7  = DIPEA (N,N-Diisopropylethylamine)
+    S1  = DMF (N,N-Dimethylformamide)
+
+  R29_A1_B7_S1 means:
+    R29 = HATU (Hexafluorophosphate Azabenzotriazole Tetramethyl Uronium)
+    A1  = No additive (HATU has built-in activating functionality)
+    B7  = DIPEA
+    S1  = DMF
+
+==================================================================
+
+Experimental Details:
+
+Platform: In-house automated HTE platform with liquid handling robots
+Scale: Microscale reactions in well plates
+Analysis: LCMS with internal standard
+Yield determination: Fractional yields (0.0 to 1.0) based on product formation
+Quality control: Automated data collection minimizes human error
+Replication: Some conditions tested multiple times (780 total measurements for 648 unique combos)
+
+Data Quality:
+
+- High-throughput experimental measurements (not literature-curated)
+- Consistent experimental conditions across all measurements
+- Automated liquid handling reduces batch effects
+- LCMS-based quantification with internal standards
+- Complete coverage - no missing data points in the design space
+
+Yield Distribution:
+
+- Mean yield: 0.422 (42.2%)
+- Standard deviation: 0.327 (high variance, significant optimization potential)
+- Range: 0.000 to 0.995 (nearly full scale)
+- Distribution: Relatively balanced, not heavily skewed
+
+This wide range indicates substantial condition-dependent variation, making the dataset 
+well-suited for testing the ability of optimization algorithms to identify high-performing 
+regions of the experimental space.
+
+Substrate-Condition Performance:
+
+Best overall results typically achieved with:
+- Amine 2 (4-methylbenzylamine) - most reactive amine
+- Acid 1 or 2 - more reactive acids
+- Various high-performing conditions across different reagent combinations
+
+Most challenging combinations:
+- Amine 1 (4-aminoacetophenone) with Acid 3 (anthraquinone)
+- Electron-poor amine + bulky acid = difficult coupling
+
+Use Cases:
+
+1. Optimization Algorithm Benchmarking:
+   - Test convergence to global optimum
+   - Evaluate sample efficiency
+   - Compare exploration vs exploitation strategies
+   - No surrogate modeling needed - complete ground truth available
+
+2. Multi-Objective Optimization:
+   - Find best conditions for each substrate pair
+   - Identify robust conditions across multiple substrates
+   - Trade-off analysis (e.g., yield vs specific substrate preference)
+
+3. Transfer Learning Research:
+   - 9 related but distinct optimization landscapes
+   - Test algorithm ability to leverage prior experiments
+   - Substrate-specific vs general condition learning
+
+4. Active Learning Studies:
+   - Sequential experimental design
+   - Intelligent condition recommendation
+   - Budget-constrained optimization scenarios
+
+5. Chemical ML Research:
+   - Structure-activity relationship studies
+   - Descriptor-based modeling
+   - Mechanistic hypothesis testing
+
+Limitations:
+
+1. Condition Granularity: The 72 conditions are discrete combinations. Users cannot 
+   interpolate or vary individual components (e.g., cannot adjust stoichiometry or 
+   independently select activation reagent while keeping other components fixed).
+
+2. Substrate Scope: Only 3 amines and 3 acids. Limited generalization to broader 
+   substrate classes.
+
+3. Single Solvent: All reactions in DMF (S1). No solvent variation in this subset.
+
+4. Scale: HTE microscale reactions may not perfectly translate to synthesis scale.
+
+5. Sparse Sampling: The 72 conditions represent only 2.9% of the theoretical condition 
+   space (72 out of 2,450 possible combinations of activation×additive×base).
+
+Related Datasets:
+
+From the same HTE campaign:
+- Full dataset: 47,015 experiments, 70 amines × 66 acids, 95 conditions, sparse coverage
+- Alternative subset: 43 substrate pairs × 94 conditions (fully mapped in condition dimension only)
+- 6D subset: 3×3×2×1×1×1 = 18 experiments (fully mapped including condition components)
+
+Citation:
+
+If you use this dataset, please cite:
+
+Zhang, C.; Lin, Q.; Yang, C.; Kong, Y.; Yu, Z.; Liao, K. 
+"Intermediate Knowledge Enhanced the Performance of N-Acylation Yield Prediction Model"
+ChemRxiv 2024. DOI: 10.26434/chemrxiv-2024-tzsnq
+
+Source Institution: Guangzhou National Laboratory / AIChemEco Inc.
+
+=================================================================
+                Summary Statistics
+-----------------------------------------------------------------
+    Number of Samples              648
+    Dimensionality                 3 parameters
+    Features:
+        amine                      categorical (3 options)
+        acid                       categorical (3 options)
+        condition                  categorical (72 options)
+    
+    Targets:
+        percent_yield              continuous (0.0 to 100.0)
+==================================================================
+
+
+
