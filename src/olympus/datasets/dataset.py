@@ -60,6 +60,8 @@ class Dataset:
         self.test_frac = test_frac
         self.num_folds = num_folds
         self.random_seed = random_seed
+        datasets_path = os.path.dirname(os.path.abspath(__file__))
+        self.dataset_path =  "".join(f"{datasets_path}/dataset_{kind}")
 
         # we defined the param_space as part of the Dataset object. When we
         # load a standard dataset, we define the param_space from the config
