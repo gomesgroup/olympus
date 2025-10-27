@@ -649,11 +649,16 @@ class Dataset:
         for param in config["parameters"]:
             if param["type"] == "categorical":
                 desc_ = self._get_descriptors(param)
+                if 'smiles_options' in param:
+                    smiles_options = param['smiles_options']
+                else:
+                    smiles_options = None
                 self.param_space.add(
                     ParameterCategorical(
                         name=param["name"],
                         options=param["options"],
                         descriptors=desc_,
+                        smiles_options=smiles_options
                     )
                 )
             # continuous or categorical
